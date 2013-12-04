@@ -14,6 +14,8 @@ startButton.onclick = start;
 callButton.onclick = call;
 hangupButton.onclick = hangup;
 
+var RTCPeerConnection = (window.mozRTCPeerConnection || window.webkitRTCPeerConnection);
+
 var total = '';
 function trace(text) {
   total += text;
@@ -52,25 +54,25 @@ function call() {
 
   var servers = null;
 
-  localPeerConnection = new webkitRTCPeerConnection(servers);
+  localPeerConnection = new RTCPeerConnection(servers);
   trace("Created local peer connection object localPeerConnection");
   localPeerConnection.onicecandidate = gotLocalIceCandidate;
 
-  remotePeerConnection = new webkitRTCPeerConnection(servers);
+  remotePeerConnection = new RTCPeerConnection(servers);
   trace("Created remote peer connection object remotePeerConnection");
   remotePeerConnection.onicecandidate = gotRemoteIceCandidate;
   remotePeerConnection.onaddstream = gotRemoteStream;
 
   localPeerConnection.addStream(localStream);
   trace("Added localStream to localPeerConnection");
-  localPeerConnection.createOffer(gotLocalDescription);
+  localPeerConnection.createOffer(gotLocalDescription, trace);
 }
 
 function gotLocalDescription(description){
   localPeerConnection.setLocalDescription(description);
   trace("Offer from localPeerConnection: \n" + description.sdp);
   remotePeerConnection.setRemoteDescription(description);
-  remotePeerConnection.createAnswer(gotRemoteDescription);
+  remotePeerConnection.createAnswer(gotRemoteDescription, trace);
 }
 
 function gotRemoteDescription(description){
