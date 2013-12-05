@@ -3,7 +3,7 @@
 var connect = require('connect');
 
 const listenPort=8000;
-var wwwRoot=__dirname + ".."";
+var wwwRoot=__dirname + "/..";
 
 connect.createServer(
 	connect.static(wwwRoot)
