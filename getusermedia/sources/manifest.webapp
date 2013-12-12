@@ -1,6 +1,6 @@
 {
-	"name": "GetUserMedia with contrainsts",
-	"description": "WebRTC test - GetUserMedia with contrainsts",
+	"name": "GetUserMedia with source selection",
+	"description": "WebRTC test - GetUserMedia with source selection",
 	"icons": {
 		"128": "/getusermedia/sources/icon.png"
 	},
