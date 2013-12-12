@@ -2,9 +2,9 @@
 	"name": "GetUserMedia",
 	"description": "WebRTC test - GetUserMedia",
 	"icons": {
-		"128": "/getusermedia/icon.png"
+		"128": "/WebRTC/getusermedia/icon.png"
 	},
-	"launch_path": "/getusermedia/index.html",
+	"launch_path": "/WebRTC/getusermedia/index.html",
 	"developer" : {
 		"name" : "Changbin Park",
 		"url" : "https://pchangbin.github.com/WebRTC"

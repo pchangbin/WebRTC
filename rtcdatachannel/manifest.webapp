@@ -2,9 +2,9 @@
   "name": "RTCDataChannel",
   "description": "WebRTC test - RTCDataChannel",
   "icons": {
-    "128": "/rtcdatachannel/icon.png"
+    "128": "/WebRTC/rtcdatachannel/icon.png"
   },
-  "launch_path": "/rtcdatachannel/index.html",
+  "launch_path": "/WebRTC/rtcdatachannel/index.html",
   "developer": {
     "name": "Changbin Park",
 	"url" : "https://pchangbin.github.com/WebRTC"
