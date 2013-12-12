@@ -1,6 +1,6 @@
 {
-  "name": "RTCPeerConnection",
-  "description": "WebRTC test - RTCPeerConnection",
+  "name": "RTCDataChannel",
+  "description": "WebRTC test - RTCDataChannel",
   "icons": {
     "128": "/icon.png"
   },
@@ -10,3 +10,4 @@
     "url": "https://github.com/pchangbin/simpl"
   }
 }
+
