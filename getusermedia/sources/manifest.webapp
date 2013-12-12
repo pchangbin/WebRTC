@@ -2,9 +2,9 @@
 	"name": "GetUserMedia with contrainsts",
 	"description": "WebRTC test - GetUserMedia with contrainsts",
 	"icons": {
-		"128": "/icon.png"
+		"128": "/getusermedia/sources/icon.png"
 	},
-	"launch_path": "/index.html",
+	"launch_path": "/getusermedia/sources/index.html",
 	"developer" : {
 		"name" : "Changbin Park",
 		"url" : "http://pchangbin.github.io/WebRTC"
