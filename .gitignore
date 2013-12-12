@@ -1,3 +1,4 @@
 # dia auto-backup files
 *.dia~
+*.dia.autosave
 
