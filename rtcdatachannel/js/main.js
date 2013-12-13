@@ -14,6 +14,11 @@ function trace(text) {
   console.log((performance.now() / 1000).toFixed(3) + ": " + text);
 }
 
+function RTCError(e)
+{
+  trace("[RTCError] " + e.name + " --> " + e.message );
+}
+
 var RTCPeerConnection = (window.mozRTCPeerConnection || window.webkitRTCPeerConnection);
 function createConnection() {
   var servers = null;
@@ -42,7 +47,7 @@ function createConnection() {
   remotePeerConnection.onicecandidate = gotRemoteIceCandidate;
   remotePeerConnection.ondatachannel = gotReceiveChannel;
 
-  localPeerConnection.createOffer(gotLocalDescription, trace);
+  localPeerConnection.createOffer(gotLocalDescription, RTCError);
   startButton.disabled = true;
   closeButton.disabled = false;
 }
@@ -77,7 +82,7 @@ function gotLocalDescription(desc) {
   localPeerConnection.setLocalDescription(desc);
   trace('Offer from localPeerConnection \n' + desc.sdp);
   remotePeerConnection.setRemoteDescription(desc);
-  remotePeerConnection.createAnswer(gotRemoteDescription, trace);
+  remotePeerConnection.createAnswer(gotRemoteDescription, RTCError);
 }
 
 function gotRemoteDescription(desc) {
