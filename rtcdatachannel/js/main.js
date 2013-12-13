@@ -14,9 +14,16 @@ function trace(text) {
   console.log((performance.now() / 1000).toFixed(3) + ": " + text);
 }
 
+function RTCError(e)
+{
+  trace("[RTCError] " + e.name + " --> " + e.message );
+}
+
+
+var RTCPeerConnection = (window.mozRTCPeerConnection || window.webkitRTCPeerConnection);
 function createConnection() {
   var servers = null;
-  window.localPeerConnection = new webkitRTCPeerConnection(servers,
+  window.localPeerConnection = new RTCPeerConnection(servers,
     {optional: [{RtpDataChannels: true}]});
   trace('Created local peer connection object localPeerConnection');
 
@@ -34,14 +41,14 @@ function createConnection() {
   sendChannel.onopen = handleSendChannelStateChange;
   sendChannel.onclose = handleSendChannelStateChange;
 
-  window.remotePeerConnection = new webkitRTCPeerConnection(servers,
+  window.remotePeerConnection = new RTCPeerConnection(servers,
     {optional: [{RtpDataChannels: true}]});
   trace('Created remote peer connection object remotePeerConnection');
 
   remotePeerConnection.onicecandidate = gotRemoteIceCandidate;
   remotePeerConnection.ondatachannel = gotReceiveChannel;
 
-  localPeerConnection.createOffer(gotLocalDescription);
+  localPeerConnection.createOffer(gotLocalDescription, RTCError);
   startButton.disabled = true;
   closeButton.disabled = false;
 }
@@ -76,7 +83,7 @@ function gotLocalDescription(desc) {
   localPeerConnection.setLocalDescription(desc);
   trace('Offer from localPeerConnection \n' + desc.sdp);
   remotePeerConnection.setRemoteDescription(desc);
-  remotePeerConnection.createAnswer(gotRemoteDescription);
+  remotePeerConnection.createAnswer(gotRemoteDescription, RTCError);
 }
 
 function gotRemoteDescription(desc) {
