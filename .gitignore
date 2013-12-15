@@ -2,3 +2,6 @@
 *.dia~
 *.dia.autosave
 
+# Jekyll related meta files
+Gemfile.lock
+_site
