@@ -1,5 +1,5 @@
 safe: true
 lsi: false
 pygments: true
-source: /home/ghacker/github/WebRTC
+source: .
 
