@@ -1,9 +1,9 @@
 #!/bin/bash
 
-[[ -x "$(which bundle)" ]] && (
+if [[ ! -x "$(which bundle)" ]];then
   echo "'bundle' is not ready" >&2
   exit -1
-)
+fi
 
 # Launch jekyll as daemon
 #options=--detach
