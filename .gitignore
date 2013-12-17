@@ -1,2 +1,7 @@
-# external git repository
-ascii-camera
+# dia auto-backup files
+*.dia~
+*.dia.autosave
+
+# Jekyll related meta files
+Gemfile.lock
+_site
