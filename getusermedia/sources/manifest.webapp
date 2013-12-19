@@ -1,12 +1,12 @@
 {
-	"name": "GetUserMedia with source selection",
-	"description": "WebRTC test - GetUserMedia with source selection",
-	"icons": {
-		"128": "/icon.png"
-	},
-	"launch_path": "/index.html",
-	"developer" : {
-		"name" : "Changbin Park",
-		"url" : "http://pchangbin.github.io/WebRTC"
-	}
+  "name": "GetUserMedia with source selection",
+  "description": "WebRTC test - GetUserMedia with source selection",
+  "icons": {
+    "128": "/icon.png"
+  },
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Changbin Park",
+    "url": "http://pchangbin.github.io/WebRTC"
+  }
 }
