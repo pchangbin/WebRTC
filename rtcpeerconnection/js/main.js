@@ -24,11 +24,6 @@ function trace(text) {
   console.log((performance.now() / 1000).toFixed(3) + ": " + text);
 }
 
-function RTCError(e)
-{
-	trace("[RTCError] " + e.name + " --> " + e.message );
-}
-
 function gotStream(stream){
   trace("Received local stream");
   localVideo.src = URL.createObjectURL(stream);
@@ -72,14 +67,16 @@ function call() {
 
   localPeerConnection.addStream(localStream);
   trace("Added localStream to localPeerConnection");
-  localPeerConnection.createOffer(gotLocalDescription, RTCError);
+  localPeerConnection.createOffer(gotLocalDescription, e =>
+      trace("[createOffer] " + e.name + " --> " + e.message) );
 }
 
 function gotLocalDescription(description){
   localPeerConnection.setLocalDescription(description);
   trace("Offer from localPeerConnection: \n" + description.sdp);
   remotePeerConnection.setRemoteDescription(description);
-  remotePeerConnection.createAnswer(gotRemoteDescription, RTCError);
+  remotePeerConnection.createAnswer(gotRemoteDescription, e =>
+      trace("[createAnswer] " + e.name + " --> " + e.message) );
 }
 
 function gotRemoteDescription(description){
