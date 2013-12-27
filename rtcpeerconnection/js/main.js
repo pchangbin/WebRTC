@@ -67,14 +67,16 @@ function call() {
 
   localPeerConnection.addStream(localStream);
   trace("Added localStream to localPeerConnection");
-  localPeerConnection.createOffer(gotLocalDescription, trace);
+  localPeerConnection.createOffer(gotLocalDescription, e =>
+      trace("[createOffer] " + e.name + " --> " + e.message) );
 }
 
 function gotLocalDescription(description){
   localPeerConnection.setLocalDescription(description);
   trace("Offer from localPeerConnection: \n" + description.sdp);
   remotePeerConnection.setRemoteDescription(description);
-  remotePeerConnection.createAnswer(gotRemoteDescription, trace);
+  remotePeerConnection.createAnswer(gotRemoteDescription, e =>
+      trace("[createAnswer] " + e.name + " --> " + e.message) );
 }
 
 function gotRemoteDescription(description){
