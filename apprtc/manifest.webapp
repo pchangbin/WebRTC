@@ -1,0 +1,12 @@
+{
+  "name": "AppRTC",
+  "description": "WebRTC test - AppRTC",
+  "icons": {
+    "128": "/icon.png"
+  },
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Changbin Park",
+    "url": "http://pchangbin.github.io/WebRTC"
+  }
+}
