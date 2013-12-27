@@ -15,7 +15,8 @@ callButton.onclick = call;
 hangupButton.onclick = hangup;
 
 var RTCPeerConnection = (window.mozRTCPeerConnection || window.webkitRTCPeerConnection);
-var RTCIceCandidate   = (window.mozRTCIceCandidate   || window.webkitRTCIceCandidate);
+if ( ! RTCIceCandidate )
+  var RTCIceCandidate = window.mozRTCIceCandidate;
 
 var total = '';
 function trace(text) {
