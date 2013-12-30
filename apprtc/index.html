@@ -1,10 +1,12 @@
 <html>
   <head>
   </head>
-  <body onload="doRedirect('http://apprtc.appspot.com');">
+  <body onload="doRedirect(78284395);">
     <script type="text/javascript">
-      function doRedirect(aUrl)
+      function doRedirect(id)
       {
+        var aUrl="https://apprtc.appspot.com/?"
+        aUrl+=!id?"debug=loopback":"r="+id;
         window.location=aUrl;
       }
     </script>
