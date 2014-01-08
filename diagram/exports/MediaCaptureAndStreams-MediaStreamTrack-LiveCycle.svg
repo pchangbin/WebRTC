@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="24cm" height="11cm" viewBox="1227 409 468 208" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="1228.1" y="430.492" width="465.643" height="185.591"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1228.1" y="430.492" width="465.643" height="185.591"/>
+    <rect style="fill: #ffffff" x="1228.1" y="410.492" width="235" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1228.1" y="410.492" width="235" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1230.1" y="425.492">Life-cycle of MediaStreamTrack</text>
+  </g>
+  <ellipse style="fill: #000000" cx="1272.04" cy="466.89" rx="10" ry="10"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1640.47" cy="466.89" rx="37.8793" ry="18.9396"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1640.47" cy="466.89" rx="37.8793" ry="18.9396"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1640.47" y="470.79">
+      <tspan x="1640.47" y="470.79">new</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1640.22" cy="578.121" rx="36.8612" ry="18.4306"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1640.22" cy="578.121" rx="36.8612" ry="18.4306"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1640.22" y="582.021">
+      <tspan x="1640.22" y="582.021">live</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1277.75" cy="578.121" rx="41.9712" ry="20.9856"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1277.75" cy="578.121" rx="41.9712" ry="20.9856"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1277.75" y="582.021">
+      <tspan x="1277.75" y="582.021">ended</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1602.35,578.121 1461.54,578.121 1461.54,578.121 1325.2,578.121 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1332.96,573.121 1322.96,578.121 1332.96,583.121 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1463.1" y="569.191">MediaStreamTrack ends for any reason</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1640.47,486.84 1640.47,522.76 1640.22,522.76 1640.22,554.209 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1635.22,546.445 1640.22,556.445 1645.22,546.445 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1604.32" y="525.571">connected</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1283.05,466.89 1442.32,466.89 1442.32,466.89 1597.11,466.89 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1589.34,471.89 1599.34,466.89 1589.34,461.89 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1434.75" y="459.051">created/Fire "started" event</text>
+  </g>
+</svg>
