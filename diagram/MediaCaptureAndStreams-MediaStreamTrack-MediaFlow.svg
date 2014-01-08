@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="32cm" height="6cm" viewBox="1209 457 636 106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="1210.5" y="478.43" width="633.759" height="83.4128"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1210.5" y="478.43" width="633.759" height="83.4128"/>
+    <rect style="fill: #ffffff" x="1210.5" y="458.43" width="81" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1210.5" y="458.43" width="81" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1212.5" y="473.43">Media Flow</text>
+  </g>
+  <g>
+    <image x="1222.79" y="498.492" width="40" height="40" xlink:href="webcam.png"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1221.39" y="552.492">
+      <tspan x="1221.39" y="552.492">source</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1387.14" y="500.506" width="132.55" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1387.14" y="500.506" width="132.55" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1453.42" y="522.406">
+      <tspan x="1453.42" y="522.406">MediaStramTrack</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1397.14" y1="525.406" x2="1509.69" y2="525.406"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1680.55" y="489.948" width="154.9" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1680.55" y="489.948" width="154.9" height="57"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1758" y="532.848">
+      <tspan x="1758" y="532.848">Renderer</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1758" y="515.948">&lt;&lt;video element&gt;&gt;</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1728.33" y1="535.848" x2="1787.68" y2="535.848"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1262.79,518.492 1323.73,518.492 1323.73,518.506 1381.68,518.506 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1373.91,523.506 1383.91,518.506 1373.91,513.506 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1317.79" y="510.588">muted/unmuted</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1520.7,518.506 1600.12,518.506 1600.12,518.448 1675.07,518.448 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1667.31,523.448 1677.31,518.448 1667.31,513.448 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1595.91" y="531.366">[Application control]</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1595.91" y="509.968">enabled/disabled</text>
+  </g>
+</svg>
