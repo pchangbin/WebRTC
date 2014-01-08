@@ -1,6 +1,7 @@
 # dia auto-backup files
 *.dia~
 *.dia.autosave
+__dia*
 
 # Jekyll related meta files
 Gemfile.lock
