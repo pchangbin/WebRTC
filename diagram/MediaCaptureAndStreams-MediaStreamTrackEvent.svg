@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="43cm" height="12cm" viewBox="-660 82 857 233" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-658.252" y="103.163" width="854.89" height="210.203"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-658.252" y="103.163" width="854.89" height="210.203"/>
+    <rect style="fill: #ffffff" x="-658.252" y="83.1631" width="165.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-658.252" y="83.1631" width="165.7" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-656.252" y="98.1631">MediaStreamTrackEvent</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-151.206" y="202.404" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-151.206" y="202.404" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="15.4935" y="221.404">MediaStreamTrackEvent</text>
+    <rect style="fill: #ffffff" x="-151.206" y="230.404" width="333.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-151.206" y="230.404" width="333.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-148.206" y="244.404">+track: MediaStreamTrack (readonly)</text>
+    <rect style="fill: #ffffff" x="-151.206" y="250.404" width="333.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-151.206" y="250.404" width="333.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-148.206" y="264.404">+Constructor(type:DOMString,eventInitDict)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-623.334" y="222.219" width="261.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-623.334" y="222.219" width="261.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-492.634" y="241.219">MediaStreamTrackEventInit</text>
+    <rect style="fill: #ffffff" x="-623.334" y="250.219" width="261.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-623.334" y="250.219" width="261.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-620.334" y="264.219">+track: MediaStreamTrack?</text>
+    <rect style="fill: #ffffff" x="-623.334" y="270.219" width="261.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-623.334" y="270.219" width="261.4" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-15.3319" y="116.407" width="61.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-15.3319" y="116.407" width="61.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="15.3181" y="135.407">Event</text>
+    <rect style="fill: #ffffff" x="-15.3319" y="144.407" width="61.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-15.3319" y="144.407" width="61.3" height="8"/>
+    <rect style="fill: #ffffff" x="-15.3319" y="152.407" width="61.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-15.3319" y="152.407" width="61.3" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-538.755" y="123.452" width="91.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-538.755" y="123.452" width="91.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-492.855" y="142.452">EventInit</text>
+    <rect style="fill: #ffffff" x="-538.755" y="151.452" width="91.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-538.755" y="151.452" width="91.8" height="8"/>
+    <rect style="fill: #ffffff" x="-538.755" y="159.452" width="91.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-538.755" y="159.452" width="91.8" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="15.3181,179.649 15.3181,189.404 15.4935,189.404 15.4935,201.395 "/>
+    <polygon style="fill: #ffffff" points="23.3181,179.649 15.3181,163.649 7.31806,179.649 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="23.3181,179.649 15.3181,163.649 7.31806,179.649 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-492.855,186.694 -492.855,202.835 -492.634,202.835 -492.634,221.212 "/>
+    <polygon style="fill: #ffffff" points="-484.855,186.694 -492.855,170.694 -500.855,186.694 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-484.855,186.694 -492.855,170.694 -500.855,186.694 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="-151.206" y1="260.404" x2="-354.395" y2="254.342"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-341.605,249.722 -357.747,254.243 -341.903,259.717 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-304.02" y="246.9">{eventInitDict}</text>
+  </g>
+</svg>
