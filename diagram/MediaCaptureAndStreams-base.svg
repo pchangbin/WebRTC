@@ -1,26 +1,277 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="128cm" height="40cm" viewBox="-660 82 2547 795" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="140cm" height="66cm" viewBox="-795 -366 2786 1314" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
-    <rect style="fill: #ffffff" x="319" y="407" width="402.7" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="319" y="407" width="402.7" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="520.35" y="426">MediaStream</text>
-    <rect style="fill: #ffffff" x="319" y="435" width="402.7" height="100"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="319" y="435" width="402.7" height="100"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="449">+id: DOMString (readonly)</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="465">+active: boolean (readonly)</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="481">+onactive: EventHandler</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="497">+oninactive: EventHandler</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="513">+onaddtrack: EventHandler</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="529">+onremovetrack: EventHandler</text>
-    <rect style="fill: #ffffff" x="319" y="535" width="402.7" height="100"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="319" y="535" width="402.7" height="100"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="549">+getAudioTracks(): sequence&lt;MediaStreamTrack&gt;</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="565">+getVideoTracks(): sequence&lt;MediaStreamTrack&gt;</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="581">+getTrackById(trackId:DOMString): MediaStreamTrack?</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="597">+addTrack(track:MediaStreamTrack): void</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="613">+removeTrack(track:MediaStreamTrack): void</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="322" y="629">+clone(): MediaStream</text>
+    <rect style="fill: #ffffff" x="390.76" y="300.446" width="194.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="390.76" y="300.446" width="194.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="488.16" y="319.446">HTMLMediaElement</text>
+    <rect style="fill: #ffffff" x="390.76" y="328.446" width="194.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="390.76" y="328.446" width="194.8" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="393.76" y="342.446">+srcObject: MediaStream?</text>
+    <rect style="fill: #ffffff" x="390.76" y="348.446" width="194.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="390.76" y="348.446" width="194.8" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="314.289,421.121 304.461,421.121 304.461,338.446 390.76,338.446 "/>
+    <polygon style="fill: #ffffff" points="339.461,421.121 325.461,425.921 311.461,421.121 325.461,416.321 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="339.461,421.121 325.461,425.921 311.461,421.121 325.461,416.321 "/>
+  </g>
+  <g>
+    <rect style="fill: #85f69c" x="525.984" y="183.611" width="98.05" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" x="525.984" y="183.611" width="98.05" height="57"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="575.009" y="226.511">
+      <tspan x="575.009" y="226.511">html</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="575.009" y="209.611">&lt;&lt;video&gt;&gt;</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="560.459" y1="229.511" x2="589.559" y2="229.511"/>
+  </g>
+  <g>
+    <rect style="fill: #85f69c" x="353.743" y="183.479" width="98.5" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" x="353.743" y="183.479" width="98.5" height="57"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="402.993" y="226.379">
+      <tspan x="402.993" y="226.379">html</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="402.993" y="209.479">&lt;&lt;audio&gt;&gt;</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="388.443" y1="229.379" x2="417.543" y2="229.379"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="488.16,281.203 488.16,262.463 402.993,262.463 402.993,241.486 "/>
+    <polygon style="fill: #ffffff" points="480.16,281.203 488.16,297.203 496.16,281.203 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="480.16,281.203 488.16,297.203 496.16,281.203 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="488.16,281.203 488.16,262.528 575.009,262.528 575.009,241.618 "/>
+    <polygon style="fill: #ffffff" points="480.16,281.203 488.16,297.203 496.16,281.203 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="480.16,281.203 488.16,297.203 496.16,281.203 "/>
+  </g>
+  <g>
+    <rect style="fill: #85f69c" x="136.113" y="191.582" width="146.85" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" x="136.113" y="191.582" width="146.85" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="209.538" y="213.482">
+      <tspan x="209.538" y="213.482">RTCPeerConnection</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="146.113" y1="216.482" x2="272.963" y2="216.482"/>
+  </g>
+  <g>
+    <rect style="fill: #ffa500" x="339.461" y="407.121" width="402.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="339.461" y="407.121" width="402.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="540.811" y="426.121">MediaStream</text>
+    <rect style="fill: #ffa500" x="339.461" y="435.121" width="402.7" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="339.461" y="435.121" width="402.7" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="449.121">+id: DOMString (readonly)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="465.121">+active: boolean (readonly)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="481.121">+onactive: EventHandler</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="497.121">+oninactive: EventHandler</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="513.121">+onaddtrack: EventHandler</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="529.121">+onremovetrack: EventHandler</text>
+    <rect style="fill: #ffa500" x="339.461" y="535.121" width="402.7" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="339.461" y="535.121" width="402.7" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="549.121">+getTrackById(trackId:DOMString): MediaStreamTrack?</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="565.121">+addTrack(track:MediaStreamTrack): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="581.121">+removeTrack(track:MediaStreamTrack): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="597.121">+clone(): MediaStream</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="613.121">+getAudioTracks(): sequence&lt;MediaStreamTrack&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="342.461" y="629.121">+getVideoTracks(): sequence&lt;MediaStreamTrack&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="314.289,421.121 304.212,421.121 304.212,209.582 282.963,209.582 "/>
+    <polygon style="fill: #ffffff" points="339.461,421.121 325.461,425.921 311.461,421.121 325.461,416.321 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="339.461,421.121 325.461,425.921 311.461,421.121 325.461,416.321 "/>
+  </g>
+  <g>
+    <rect style="fill: #85f69c" x="779.12" y="-202.573" width="441.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="779.12" y="-202.573" width="441.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="999.72" y="-183.573">NavigatorUserMedia</text>
+    <rect style="fill: #85f69c" x="779.12" y="-174.573" width="441.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="779.12" y="-174.573" width="441.2" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="782.12" y="-160.573">+getMediaDevices(resultCallback): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="782.12" y="-144.573">+getUserMedia(constraints,successCallback,errorCallback)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1425.77" y="-185.164" width="236.2" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1425.77" y="-185.164" width="236.2" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1543.87" y="-169.164">&lt;&lt;callback&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1543.87" y="-150.164">MediaDeviceInfoCallback</text>
+    <rect style="fill: #ffffff" x="1425.77" y="-141.164" width="236.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1425.77" y="-141.164" width="236.2" height="8"/>
+    <rect style="fill: #ffffff" x="1425.77" y="-133.164" width="236.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1425.77" y="-133.164" width="236.2" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1428.77" y="-119.164">+(deviceInfoList): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1788.37" y="-256.898" width="179.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1788.37" y="-256.898" width="179.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1878.07" y="-237.898">MediaDeviceInfo</text>
+    <rect style="fill: #ffffff" x="1788.37" y="-228.898" width="179.4" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1788.37" y="-228.898" width="179.4" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1791.37" y="-214.898">+deviceId: DOMString</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1791.37" y="-198.898">+kind: MediaDeviceKind</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1791.37" y="-182.898">+label: DOMString</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1791.37" y="-166.898">+groupId: DOMString</text>
+    <rect style="fill: #ffffff" x="1788.37" y="-160.898" width="179.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1788.37" y="-160.898" width="179.4" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1796.91" y="-96.546" width="169.6" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1796.91" y="-96.546" width="169.6" height="57"/>
+    <rect style="fill: #ffffff" x="1788.91" y="-88.546" width="169.6" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1788.91" y="-88.546" width="169.6" height="57"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1873.71" y="-45.646">
+      <tspan x="1873.71" y="-45.646">sequence</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1873.71" y="-62.546">&lt;&lt;MediaDeviceInfo&gt;&gt;</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1846.83" y1="-42.646" x2="1908.58" y2="-42.646"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1220.32,-164.573 1278.34,-164.573 1278.34,-163.164 1419.06,-163.164 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1406.41,-158.164 1422.41,-163.164 1406.41,-168.164 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1280.34" y="-166.868">resultCallback</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1878.07,-127.726 1878.07,-118.226 1877.71,-118.226 1877.71,-97.5542 "/>
+    <polygon style="fill: #ffffff" points="1878.07,-152.898 1882.87,-138.898 1878.07,-124.898 1873.27,-138.898 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1878.07,-152.898 1882.87,-138.898 1878.07,-124.898 1873.27,-138.898 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="1661.97" y1="-123.164" x2="1782.83" y2="-66.8768"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1769.25,-67.6838 1785.87,-65.4614 1773.47,-76.7489 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1712.39" y="-107.944">{deviceInfoList}</text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1812.85,-364.312 1934.35,-364.312 1946.35,-352.312 1946.35,-266.312 1812.85,-266.312 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1812.85,-364.312 1934.35,-364.312 1946.35,-352.312 1946.35,-266.312 1812.85,-266.312 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="1934.35,-364.312 1934.35,-352.312 1946.35,-352.312 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1819.85" y="-339.412">
+      <tspan x="1819.85" y="-339.412">enum {</tspan>
+      <tspan x="1819.85" y="-323.412">  "audioinput"</tspan>
+      <tspan x="1819.85" y="-307.412">  "audiooutput"</tspan>
+      <tspan x="1819.85" y="-291.412">  "videoinput"</tspan>
+      <tspan x="1819.85" y="-275.412">}</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1972.52,-315.312 1988.77,-315.312 1988.77,-202.898 1967.77,-202.898 "/>
+    <polygon style="fill: #000000" points="1947.35,-315.312 1961.35,-320.112 1975.35,-315.312 1961.35,-310.512 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1947.35,-315.312 1961.35,-320.112 1975.35,-315.312 1961.35,-310.512 "/>
+  </g>
+  <g>
+    <rect style="fill: #85f69c" x="784.977" y="-311.114" width="133.8" height="73"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" x="784.977" y="-311.114" width="133.8" height="73"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="851.877" y="-268.214">
+      <tspan x="851.877" y="-268.214">window.navigator</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="851.877" y="-285.114">&lt;&lt;js object&gt;&gt;</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="851.877" y="-248.114">singleton</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="794.977" y1="-265.214" x2="908.777" y2="-265.214"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="760.884,-188.573 742.12,-188.573 742.12,-274.614 783.969,-274.614 "/>
+    <polygon style="fill: #ffffff" points="760.884,-180.573 776.884,-188.573 760.884,-196.573 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="760.884,-180.573 776.884,-188.573 760.884,-196.573 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1429.74" y="-84.7191" width="302.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1429.74" y="-84.7191" width="302.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1581.04" y="-65.7191">MediaStreamConstraints</text>
+    <rect style="fill: #ffffff" x="1429.74" y="-56.7191" width="302.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1429.74" y="-56.7191" width="302.6" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1432.74" y="-42.7191">+video: boolean or Constraints = false</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1432.74" y="-26.7191">+audio: boolean or Constraints = false</text>
+    <rect style="fill: #ffffff" x="1429.74" y="-20.7191" width="302.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1429.74" y="-20.7191" width="302.6" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1142.67" y="6.66243" width="342.4" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1142.67" y="6.66243" width="342.4" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1313.87" y="22.6624">&lt;&lt;callback&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1313.87" y="41.6624">NavigatorUserMediaSuccessCallback</text>
+    <rect style="fill: #ffffff" x="1142.67" y="50.6624" width="342.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1142.67" y="50.6624" width="342.4" height="8"/>
+    <rect style="fill: #ffffff" x="1142.67" y="58.6624" width="342.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1142.67" y="58.6624" width="342.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1145.67" y="72.6624">+(stream:MediaStream): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="746.748" y="10.9015" width="342.4" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="746.748" y="10.9015" width="342.4" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="917.948" y="26.9015">&lt;&lt;callback&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="917.948" y="45.9015">NavigatorUserMediaSuccessCallback</text>
+    <rect style="fill: #ffffff" x="746.748" y="54.9015" width="342.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="746.748" y="54.9015" width="342.4" height="8"/>
+    <rect style="fill: #ffffff" x="746.748" y="62.9015" width="342.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="746.748" y="62.9015" width="342.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="749.748" y="76.9015">+(error:MediaError): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1404.57,-70.7191 1318.03,-70.7191 1318.03,-148.573 1220.32,-148.573 "/>
+    <polygon style="fill: #ffffff" points="1429.74,-70.7191 1415.74,-65.9191 1401.74,-70.7191 1415.74,-75.5191 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1429.74,-70.7191 1415.74,-65.9191 1401.74,-70.7191 1415.74,-75.5191 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1320.03" y="-112.646">constraints</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1220.32,-148.573 1241.32,-148.573 1241.32,-59.9551 1113.67,-59.9551 1113.67,28.6624 1135.97,28.6624 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1123.32,33.6624 1139.32,28.6624 1123.32,23.6624 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1177.5" y="-62.9551">successCallback</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="779.12,-148.573 717.748,-148.573 717.748,32.9015 740.043,32.9015 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="727.395,37.9015 743.395,32.9015 727.395,27.9015 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="719.748" y="-60.8356">errorCallback</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="746.748,72.9015 395.082,72.9015 395.082,-16.0926 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.082,-3.44523 395.082,-19.4452 390.082,-3.44523 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="570.915" y="69.9015">error</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-367.626" y="-175.58" width="928.55" height="152.783"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-367.626" y="-175.58" width="928.55" height="152.783"/>
+    <rect style="fill: #ffffff" x="-367.626" y="-195.58" width="81" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-367.626" y="-195.58" width="81" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-365.626" y="-180.58">MediaError</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="243.782" y="-110.798" width="302.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="243.782" y="-110.798" width="302.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="395.082" y="-91.7978">MediaError</text>
+    <rect style="fill: #ffffff" x="243.782" y="-82.7978" width="302.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="243.782" y="-82.7978" width="302.6" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="246.782" y="-68.7978">+name: DOMString (readonly)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="246.782" y="-52.7978">+message: DOMString? (readonly)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="246.782" y="-36.7978">+constraintName: DOMString? (readonly)</text>
+    <rect style="fill: #ffffff" x="243.782" y="-30.7978" width="302.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="243.782" y="-30.7978" width="302.6" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-361.922" y="-170.755" width="191.95" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-361.922" y="-170.755" width="191.95" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-265.947" y="-151.755">MediaErrorEventInit</text>
+    <rect style="fill: #ffffff" x="-361.922" y="-142.755" width="191.95" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-361.922" y="-142.755" width="191.95" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-358.922" y="-128.755">+error: MediaError</text>
+    <rect style="fill: #ffffff" x="-361.922" y="-122.755" width="191.95" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-361.922" y="-122.755" width="191.95" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-135.33" y="-134.864" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-135.33" y="-134.864" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="31.3699" y="-115.864">MediaErrorEvent</text>
+    <rect style="fill: #ffffff" x="-135.33" y="-106.864" width="333.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-135.33" y="-106.864" width="333.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-132.33" y="-92.8641">+error: MediaError (readonly)</text>
+    <rect style="fill: #ffffff" x="-135.33" y="-86.8641" width="333.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-135.33" y="-86.8641" width="333.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-132.33" y="-72.8641">+Constructor(type:DOMString,eventInitDict)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="218.611,-96.7978 213.926,-96.7978 213.926,-96.8641 198.07,-96.8641 "/>
+    <polygon style="fill: #ffffff" points="243.782,-96.7978 229.782,-91.9978 215.782,-96.7978 229.782,-101.598 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="243.782,-96.7978 229.782,-91.9978 215.782,-96.7978 229.782,-101.598 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-135.33,-76.8641 -265.947,-76.8641 -265.947,-108.05 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-260.947,-95.4026 -265.947,-111.403 -270.947,-95.4026 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-200.639" y="-79.8641">eventInitDict</text>
   </g>
   <g>
     <rect style="fill: #ffffff" x="700" y="269" width="120.85" height="28"/>
@@ -32,15 +283,15 @@
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="305" width="120.85" height="8"/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="760.425,332.242 760.425,367.999 520.35,367.999 520.35,405.993 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="760.425,332.242 760.425,368.563 540.811,368.563 540.811,407.121 "/>
     <polygon style="fill: #ffffff" points="768.425,332.242 760.425,316.242 752.425,332.242 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="768.425,332.242 760.425,316.242 752.425,332.242 "/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="794" y="408" width="348.8" height="28"/>
+    <rect style="fill: #ffa500" x="794" y="408" width="348.8" height="28"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="794" y="408" width="348.8" height="28"/>
     <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="968.4" y="427">MediaStreamTrack</text>
-    <rect style="fill: #ffffff" x="794" y="436" width="348.8" height="196"/>
+    <rect style="fill: #ffa500" x="794" y="436" width="348.8" height="196"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="794" y="436" width="348.8" height="196"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="797" y="450">+kind: DOMString (readonly)</text>
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="797" y="466">+id: DOMString (readonly)</text>
@@ -54,7 +305,7 @@
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="797" y="594">+readyState: MediaStramTrackState (readonly)</text>
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="797" y="610">+onstarted: EventHandler</text>
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="797" y="626">+onended: EventHandler</text>
-    <rect style="fill: #ffffff" x="794" y="632" width="348.8" height="36"/>
+    <rect style="fill: #ffa500" x="794" y="632" width="348.8" height="36"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="794" y="632" width="348.8" height="36"/>
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="797" y="646">+clone(): MediaStreamTrack</text>
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="797" y="662">+stop(): void</text>
@@ -65,71 +316,71 @@
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="768.425,332.242 760.425,316.242 752.425,332.242 "/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="529.728" y="737.049" width="140.45" height="57"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="529.728" y="737.049" width="140.45" height="57"/>
-    <rect style="fill: #ffffff" x="521.728" y="745.049" width="140.45" height="57"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="521.728" y="745.049" width="140.45" height="57"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="591.953" y="787.949">
-      <tspan x="591.953" y="787.949">MediaStreamTrack</tspan>
+    <rect style="fill: #ffffff" x="445.433" y="740.939" width="140.45" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="445.433" y="740.939" width="140.45" height="57"/>
+    <rect style="fill: #ffffff" x="437.433" y="748.939" width="140.45" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="437.433" y="748.939" width="140.45" height="57"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="507.658" y="791.839">
+      <tspan x="507.658" y="791.839">MediaStreamTrack</tspan>
     </text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="591.953" y="771.049">&lt;&lt;sequence&gt;&gt;</text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="535.728" y1="790.949" x2="656.178" y2="790.949"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="507.658" y="774.939">&lt;&lt;sequence&gt;&gt;</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="451.433" y1="794.839" x2="571.883" y2="794.839"/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="292.539" y="738.249" width="140.45" height="57"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="292.539" y="738.249" width="140.45" height="57"/>
-    <rect style="fill: #ffffff" x="284.539" y="746.249" width="140.45" height="57"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="284.539" y="746.249" width="140.45" height="57"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="354.764" y="789.149">
-      <tspan x="354.764" y="789.149">MediaStreamTrack</tspan>
+    <rect style="fill: #ffffff" x="276.978" y="742.141" width="140.45" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="276.978" y="742.141" width="140.45" height="57"/>
+    <rect style="fill: #ffffff" x="268.978" y="750.141" width="140.45" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="268.978" y="750.141" width="140.45" height="57"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="339.203" y="793.041">
+      <tspan x="339.203" y="793.041">MediaStreamTrack</tspan>
     </text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="354.764" y="772.249">&lt;&lt;sequence&gt;&gt;</text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="298.539" y1="792.149" x2="418.989" y2="792.149"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="339.203" y="776.141">&lt;&lt;sequence&gt;&gt;</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="282.978" y1="796.041" x2="403.428" y2="796.041"/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="595.953,711.877 595.953,702.049 742.7,702.049 742.7,545 721.7,545 "/>
-    <polygon style="fill: #ffffff" points="595.953,737.049 591.153,723.049 595.953,709.049 600.753,723.049 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="595.953,737.049 591.153,723.049 595.953,709.049 600.753,723.049 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="669.326" y="699.049"></text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="606.953" y="733.049"></text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="725.7" y="542"></text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="511.658,715.767 511.658,705.939 763.161,705.939 763.161,609.121 742.161,609.121 "/>
+    <polygon style="fill: #ffffff" points="511.658,740.939 506.858,726.939 511.658,712.939 516.458,726.939 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="511.658,740.939 506.858,726.939 511.658,712.939 516.458,726.939 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="637.41" y="702.939"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="522.658" y="736.939"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="746.161" y="606.121"></text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.764,713.078 358.764,687.563 733.825,687.563 733.825,561 721.7,561 "/>
-    <polygon style="fill: #ffffff" points="358.764,738.249 353.964,724.249 358.764,710.249 363.564,724.249 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.764,738.249 353.964,724.249 358.764,710.249 363.564,724.249 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="546.295" y="684.563"></text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="369.764" y="734.249"></text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="725.7" y="558"></text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="343.203,716.969 343.203,692.042 752.486,692.042 752.486,625.121 742.161,625.121 "/>
+    <polygon style="fill: #ffffff" points="343.203,742.141 338.403,728.141 343.203,714.141 348.003,728.141 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="343.203,742.141 338.403,728.141 343.203,714.141 348.003,728.141 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="547.845" y="689.042"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="354.203" y="738.141"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="746.161" y="622.121"></text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="358.764,804.257 358.764,843.348 1095.83,843.348 1095.83,796.556 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1100.83,809.203 1095.83,793.203 1090.83,809.203 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="343.203,808.149 343.203,930.85 1165.13,930.85 1165.13,908.555 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1170.13,921.203 1165.13,905.203 1160.13,921.203 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="319" y1="477" x2="249.682" y2="425.468"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="303.176,471.467 319,477 319,477 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="339.461" y1="477.121" x2="249.682" y2="425.468"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="323.099,473.476 339.461,477.121 339.461,477.121 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="319" y1="493" x2="140.186" y2="457.854"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="302.336,494.82 319,493 319,493 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="339.461" y1="493.121" x2="140.186" y2="457.854"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="322.834,495.256 339.461,493.121 339.461,493.121 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="319" y1="509" x2="258.522" y2="524.94"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="304.803,517.913 319,509 319,509 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="339.461" y1="509.121" x2="258.522" y2="524.94"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="324.717,517.097 339.461,509.121 339.461,509.121 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="319" y1="525" x2="259.294" y2="595.882"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="312.516,540.458 319,525 319,525 "/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="339.461" y1="525.121" x2="259.294" y2="595.882"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="330.774,539.458 339.461,525.121 339.461,525.121 "/>
   </g>
   <g>
-    <polygon style="fill: #ffffff" points="39.1436,325.256 391.644,325.256 403.644,337.256 403.644,391.256 39.1436,391.256 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="39.1436,325.256 391.644,325.256 403.644,337.256 403.644,391.256 39.1436,391.256 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="391.644,325.256 391.644,337.256 403.644,337.256 "/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="46.1436" y="350.156">
-      <tspan x="46.1436" y="350.156">inactive)</tspan>
-      <tspan x="46.1436" y="366.156">does not have any tracks or</tspan>
-      <tspan x="46.1436" y="382.156">all tracks belonging to the stream have ended</tspan>
+    <polygon style="fill: #ffffff" points="-95.8203,318.565 256.68,318.565 268.68,330.565 268.68,384.565 -95.8203,384.565 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-95.8203,318.565 256.68,318.565 268.68,330.565 268.68,384.565 -95.8203,384.565 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="256.68,318.565 256.68,330.565 268.68,330.565 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-88.8203" y="343.465">
+      <tspan x="-88.8203" y="343.465">inactive)</tspan>
+      <tspan x="-88.8203" y="359.465">does not have any tracks or</tspan>
+      <tspan x="-88.8203" y="375.465">all tracks belonging to the stream have ended</tspan>
     </text>
   </g>
   <g>
@@ -185,225 +436,276 @@
     <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1026.25" y="356.012">                  errrorCallback:ConstraintErrorCallback): void</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1270.8,380.248 1270.8,392.502 968.4,392.502 968.4,406.992 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1270.8,380.248 1270.8,422 1142.8,422 "/>
     <polygon style="fill: #ffffff" points="1278.8,380.248 1270.8,364.248 1262.8,380.248 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1278.8,380.248 1270.8,364.248 1262.8,380.248 "/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="986.881" y="717.851" width="217.9" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="986.881" y="717.851" width="217.9" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1095.83" y="736.851">VideoStreamTrack</text>
-    <rect style="fill: #ffffff" x="986.881" y="745.851" width="217.9" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="986.881" y="745.851" width="217.9" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.881" y="759.851">+sourceType: SourceTypeEnum</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.881" y="775.851">+sourceId: DOMString</text>
-    <rect style="fill: #ffffff" x="986.881" y="781.851" width="217.9" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="986.881" y="781.851" width="217.9" height="8"/>
+    <rect style="fill: #ffffff" x="986.88" y="717.85" width="356.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="986.88" y="717.85" width="356.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1165.13" y="736.85">VideoStreamTrack</text>
+    <rect style="fill: #ffffff" x="986.88" y="745.85" width="356.5" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="986.88" y="745.85" width="356.5" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="759.85">+sourceType: SourceTypeEnum</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="775.85">+sourceId: DOMString</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="791.85">+noaccess: boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="807.85">+peerIdentity: DOMString</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="823.85">+width: PropertyValueRange of unsigned longs</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="839.85">+height: PropertyValueRange of unsigned longs</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="855.85">+frameRate: PropertyValueRange of doubles</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="871.85">+aspectRatio: PropertyValueRange od floats</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="989.88" y="887.85">+facingMode: list of VideoFacingModeEnum</text>
+    <rect style="fill: #ffffff" x="986.88" y="893.85" width="356.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="986.88" y="893.85" width="356.5" height="8"/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="746.27" y="717.851" width="217.9" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="746.27" y="717.851" width="217.9" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="855.22" y="736.851">AudioStreamTrack</text>
-    <rect style="fill: #ffffff" x="746.27" y="745.851" width="217.9" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="746.27" y="745.851" width="217.9" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="749.27" y="759.851">+sourceType: SourceTypeEnum</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="749.27" y="775.851">+sourceId: DOMString</text>
-    <rect style="fill: #ffffff" x="746.27" y="781.851" width="217.9" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="746.27" y="781.851" width="217.9" height="8"/>
+    <rect style="fill: #ffffff" x="613.992" y="719.147" width="356.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="613.992" y="719.147" width="356.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="792.242" y="738.147">AudioStreamTrack</text>
+    <rect style="fill: #ffffff" x="613.992" y="747.147" width="356.5" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="613.992" y="747.147" width="356.5" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="616.992" y="761.147">+sourceType: SourceTypeEnum</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="616.992" y="777.147">+sourceId: DOMString</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="616.992" y="793.147">+noaccess: boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="616.992" y="809.147">+peerIdentity: DOMString</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="616.992" y="825.147">+volume: PropertyValueRange of unsigned longs</text>
+    <rect style="fill: #ffffff" x="613.992" y="831.147" width="356.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="613.992" y="831.147" width="356.5" height="8"/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="968.4,687.244 968.4,700.925 1095.83,700.925 1095.83,716.842 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="968.4,687.244 968.4,700.926 1165.13,700.926 1165.13,716.844 "/>
     <polygon style="fill: #ffffff" points="976.4,687.244 968.4,671.244 960.4,687.244 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="976.4,687.244 968.4,671.244 960.4,687.244 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="968.4,687.244 968.4,700.925 855.22,700.925 855.22,716.842 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="968.4,687.244 968.4,701.574 792.242,701.574 792.242,718.139 "/>
     <polygon style="fill: #ffffff" points="976.4,687.244 968.4,671.244 960.4,687.244 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="976.4,687.244 968.4,671.244 960.4,687.244 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="595.953,803.057 595.953,824.057 855.22,824.057 855.22,796.556 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="860.22,809.203 855.22,793.203 850.22,809.203 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="511.658,806.947 511.658,868.147 792.242,868.147 792.242,845.852 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="797.242,858.499 792.242,842.499 787.242,858.499 "/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="1253.18" y="690.434" width="465.643" height="185.591"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1253.18" y="690.434" width="465.643" height="185.591"/>
-    <rect style="fill: #ffffff" x="1253.18" y="654.434" width="235" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1253.18" y="654.434" width="235" height="36"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1255.18" y="669.434">&lt;&lt;MediaStreamTrackState&gt;&gt;</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1255.18" y="685.434">Life-cycle of MediaStreamTrack</text>
+    <rect style="fill: #ffffff" x="1399.72" y="689.137" width="465.643" height="185.591"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1399.72" y="689.137" width="465.643" height="185.591"/>
+    <rect style="fill: #ffffff" x="1399.72" y="653.137" width="235" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1399.72" y="653.137" width="235" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1401.72" y="668.137">&lt;&lt;MediaStreamTrackState&gt;&gt;</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1401.72" y="684.137">Life-cycle of MediaStreamTrack</text>
   </g>
-  <ellipse style="fill: #000000" cx="1297.13" cy="726.832" rx="10" ry="10"/>
+  <ellipse style="fill: #000000" cx="1443.67" cy="725.535" rx="10" ry="10"/>
   <g>
-    <ellipse style="fill: #ffffff" cx="1665.55" cy="726.834" rx="37.8793" ry="18.9396"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1665.55" cy="726.834" rx="37.8793" ry="18.9396"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1665.55" y="730.734">
-      <tspan x="1665.55" y="730.734">new</tspan>
+    <ellipse style="fill: #ffffff" cx="1812.09" cy="725.537" rx="37.8793" ry="18.9396"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1812.09" cy="725.537" rx="37.8793" ry="18.9396"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1812.09" y="729.437">
+      <tspan x="1812.09" y="729.437">new</tspan>
     </text>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="1665.3" cy="838.065" rx="36.8612" ry="18.4306"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1665.3" cy="838.065" rx="36.8612" ry="18.4306"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1665.3" y="841.965">
-      <tspan x="1665.3" y="841.965">live</tspan>
+    <ellipse style="fill: #ffffff" cx="1811.84" cy="836.768" rx="36.8612" ry="18.4306"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1811.84" cy="836.768" rx="36.8612" ry="18.4306"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1811.84" y="840.668">
+      <tspan x="1811.84" y="840.668">live</tspan>
     </text>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="1302.83" cy="838.064" rx="41.9712" ry="20.9856"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1302.83" cy="838.064" rx="41.9712" ry="20.9856"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1302.83" y="841.964">
-      <tspan x="1302.83" y="841.964">ended</tspan>
+    <ellipse style="fill: #ffffff" cx="1449.37" cy="836.767" rx="41.9712" ry="20.9856"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="1449.37" cy="836.767" rx="41.9712" ry="20.9856"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1449.37" y="840.667">
+      <tspan x="1449.37" y="840.667">ended</tspan>
     </text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1627.43,838.065 1486.62,838.065 1486.62,838.064 1350.28,838.064 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1358.04,833.064 1348.04,838.064 1358.04,843.064 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1488.18" y="829.135">MediaStreamTrack ends for any reason</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1773.97,836.768 1633.16,836.768 1633.16,836.767 1496.82,836.767 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1504.59,831.767 1494.59,836.767 1504.59,841.767 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1634.72" y="827.836">MediaStreamTrack ends for any reason</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1665.55,746.766 1665.55,804.108 1665.3,804.108 1665.3,814.194 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1660.3,806.43 1665.3,816.43 1670.3,806.43 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1573.4" y="786.267">connected to active source</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1812.09,745.333 1812.09,804.108 1811.84,804.108 1811.84,812.864 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1806.84,805.1 1811.84,815.1 1816.84,805.1 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1719.94" y="786.266">connected to active source</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1308.13,726.832 1467.4,726.832 1467.4,726.834 1622.19,726.834 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1614.43,731.834 1624.43,726.834 1614.43,721.834 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1459.83" y="718.994">created/Fire "started" event</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1454.67,725.535 1613.94,725.535 1613.94,725.537 1768.73,725.537 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1760.97,730.537 1770.97,725.537 1760.97,720.537 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1606.37" y="717.697">created/Fire "started" event</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1228.01,690.434 1190.99,690.434 1190.99,590 1142.8,590 "/>
-    <polygon style="fill: #ffffff" points="1253.18,690.434 1239.18,695.234 1225.18,690.434 1239.18,685.634 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1253.18,690.434 1239.18,695.234 1225.18,690.434 1239.18,685.634 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1192.99" y="637.217"></text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="1221.18" y="687.434"></text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1374.55,689.137 1264.26,689.137 1264.26,590 1142.8,590 "/>
+    <polygon style="fill: #ffffff" points="1399.72,689.137 1385.72,693.937 1371.72,689.137 1385.72,684.337 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1399.72,689.137 1385.72,693.937 1371.72,689.137 1385.72,684.337 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1266.26" y="636.569"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="1367.72" y="686.137"></text>
     <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1146.8" y="587"></text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="1252.28" y="561.312" width="633.759" height="83.4128"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1252.28" y="561.312" width="633.759" height="83.4128"/>
-    <rect style="fill: #ffffff" x="1252.28" y="541.312" width="81" height="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1252.28" y="541.312" width="81" height="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1254.28" y="556.312">Media Flow</text>
+    <rect style="fill: #ffffff" x="1282.11" y="548.344" width="633.759" height="83.4128"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1282.11" y="548.344" width="633.759" height="83.4128"/>
+    <rect style="fill: #ffffff" x="1282.11" y="528.344" width="81" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1282.11" y="528.344" width="81" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1284.11" y="543.344">Media Flow</text>
   </g>
   <g>
-    <image x="1264.58" y="581.374" width="40" height="40" xlink:href="webcam.png"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1263.18" y="635.374">
-      <tspan x="1263.18" y="635.374">source</tspan>
+    <image x="1294.4" y="568.406" width="40" height="40" xlink:href="webcam.png"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1293" y="622.406">
+      <tspan x="1293" y="622.406">source</tspan>
     </text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="1428.93" y="583.388" width="132.55" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1428.93" y="583.388" width="132.55" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1495.2" y="605.288">
-      <tspan x="1495.2" y="605.288">MediaStramTrack</tspan>
+    <rect style="fill: #ffffff" x="1458.76" y="570.42" width="132.55" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1458.76" y="570.42" width="132.55" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1525.03" y="592.32">
+      <tspan x="1525.03" y="592.32">MediaStramTrack</tspan>
     </text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1438.93" y1="608.288" x2="1551.48" y2="608.288"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1468.76" y1="595.32" x2="1581.31" y2="595.32"/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="1722.34" y="572.83" width="154.9" height="57"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1722.34" y="572.83" width="154.9" height="57"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1799.79" y="615.73">
-      <tspan x="1799.79" y="615.73">Renderer</tspan>
+    <rect style="fill: #ffffff" x="1752.16" y="559.862" width="154.9" height="57"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1752.16" y="559.862" width="154.9" height="57"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1829.61" y="602.762">
+      <tspan x="1829.61" y="602.762">Renderer</tspan>
     </text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1799.79" y="598.83">&lt;&lt;video element&gt;&gt;</text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1770.11" y1="618.73" x2="1829.46" y2="618.73"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1829.61" y="585.862">&lt;&lt;video element&gt;&gt;</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1799.94" y1="605.762" x2="1859.29" y2="605.762"/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1304.58,601.374 1368.43,601.374 1368.43,601.388 1423.47,601.388 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1415.71,606.388 1425.71,601.388 1415.71,596.388 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1362.49" y="593.47">muted/unmuted</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1334.4,588.406 1398.26,588.406 1398.26,588.42 1453.3,588.42 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1445.54,593.42 1455.54,588.42 1445.54,583.42 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1392.32" y="580.502">muted/unmuted</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1562.49,601.388 1641.91,601.388 1641.91,601.33 1716.85,601.33 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1709.09,606.33 1719.09,601.33 1709.09,596.33 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1637.69" y="614.248">[Application control]</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1637.69" y="592.85">enabled/disabled</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1592.31,588.42 1671.73,588.42 1671.73,588.362 1746.68,588.362 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1738.92,593.362 1748.92,588.362 1738.92,583.362 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1667.52" y="601.28">[Application control]</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1667.52" y="579.882">enabled/disabled</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1561.48,558.216 1561.48,494 1142.8,494 "/>
-    <polygon style="fill: #ffffff" points="1561.48,583.388 1556.68,569.388 1561.48,555.388 1566.28,569.388 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1561.48,583.388 1556.68,569.388 1561.48,555.388 1566.28,569.388 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1352.14" y="491"></text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1572.48" y="579.388"></text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1591.31,545.248 1591.31,494 1142.8,494 "/>
+    <polygon style="fill: #ffffff" points="1591.31,570.42 1586.51,556.42 1591.31,542.42 1596.11,556.42 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1591.31,570.42 1586.51,556.42 1591.31,542.42 1596.11,556.42 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1367.05" y="491"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1602.31" y="566.42"></text>
     <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1146.8" y="491"></text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1428.93,558.216 1428.93,510 1142.8,510 "/>
-    <polygon style="fill: #ffffff" points="1428.93,583.388 1424.13,569.388 1428.93,555.388 1433.73,569.388 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1428.93,583.388 1424.13,569.388 1428.93,555.388 1433.73,569.388 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1285.86" y="507"></text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1439.93" y="579.388"></text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1458.76,545.248 1458.76,510 1142.8,510 "/>
+    <polygon style="fill: #ffffff" points="1458.76,570.42 1453.96,556.42 1458.76,542.42 1463.56,556.42 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1458.76,570.42 1453.96,556.42 1458.76,542.42 1463.56,556.42 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1300.78" y="507"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1469.76" y="566.42"></text>
     <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1146.8" y="507"></text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="-658.252" y="103.163" width="854.89" height="210.203"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-658.252" y="103.163" width="854.89" height="210.203"/>
-    <rect style="fill: #ffffff" x="-658.252" y="83.1631" width="165.7" height="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-658.252" y="83.1631" width="165.7" height="20"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-656.252" y="98.1631">MediaStreamTrackEvent</text>
+    <rect style="fill: #ffffff" x="-793.334" y="96.679" width="854.89" height="210.203"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-793.334" y="96.679" width="854.89" height="210.203"/>
+    <rect style="fill: #ffffff" x="-793.334" y="76.679" width="165.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-793.334" y="76.679" width="165.7" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-791.334" y="91.679">MediaStreamTrackEvent</text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="-151.206" y="202.404" width="333.4" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-151.206" y="202.404" width="333.4" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="15.4935" y="221.404">MediaStreamTrackEvent</text>
-    <rect style="fill: #ffffff" x="-151.206" y="230.404" width="333.4" height="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-151.206" y="230.404" width="333.4" height="20"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-148.206" y="244.404">+track: MediaStreamTrack (readonly)</text>
-    <rect style="fill: #ffffff" x="-151.206" y="250.404" width="333.4" height="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-151.206" y="250.404" width="333.4" height="20"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-148.206" y="264.404">+Constructor(type:DOMString,eventInitDict)</text>
+    <rect style="fill: #ffffff" x="-286.288" y="195.92" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-286.288" y="195.92" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-119.588" y="214.92">MediaStreamTrackEvent</text>
+    <rect style="fill: #ffffff" x="-286.288" y="223.92" width="333.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-286.288" y="223.92" width="333.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-283.288" y="237.92">+track: MediaStreamTrack (readonly)</text>
+    <rect style="fill: #ffffff" x="-286.288" y="243.92" width="333.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-286.288" y="243.92" width="333.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-283.288" y="257.92">+Constructor(type:DOMString,eventInitDict)</text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="-623.334" y="222.219" width="261.4" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-623.334" y="222.219" width="261.4" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-492.634" y="241.219">MediaStreamTrackEventInit</text>
-    <rect style="fill: #ffffff" x="-623.334" y="250.219" width="261.4" height="20"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-623.334" y="250.219" width="261.4" height="20"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-620.334" y="264.219">+track: MediaStreamTrack?</text>
-    <rect style="fill: #ffffff" x="-623.334" y="270.219" width="261.4" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-623.334" y="270.219" width="261.4" height="8"/>
+    <rect style="fill: #ffffff" x="-758.416" y="215.734" width="261.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-758.416" y="215.734" width="261.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-627.716" y="234.734">MediaStreamTrackEventInit</text>
+    <rect style="fill: #ffffff" x="-758.416" y="243.734" width="261.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-758.416" y="243.734" width="261.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-755.416" y="257.734">+track: MediaStreamTrack?</text>
+    <rect style="fill: #ffffff" x="-758.416" y="263.734" width="261.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-758.416" y="263.734" width="261.4" height="8"/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="-15.3319" y="116.407" width="61.3" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-15.3319" y="116.407" width="61.3" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="15.3181" y="135.407">Event</text>
-    <rect style="fill: #ffffff" x="-15.3319" y="144.407" width="61.3" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-15.3319" y="144.407" width="61.3" height="8"/>
-    <rect style="fill: #ffffff" x="-15.3319" y="152.407" width="61.3" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-15.3319" y="152.407" width="61.3" height="8"/>
+    <rect style="fill: #ffffff" x="-150.414" y="109.923" width="61.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-150.414" y="109.923" width="61.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-119.764" y="128.923">Event</text>
+    <rect style="fill: #ffffff" x="-150.414" y="137.923" width="61.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-150.414" y="137.923" width="61.3" height="8"/>
+    <rect style="fill: #ffffff" x="-150.414" y="145.923" width="61.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-150.414" y="145.923" width="61.3" height="8"/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="-538.755" y="123.452" width="91.8" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-538.755" y="123.452" width="91.8" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-492.855" y="142.452">EventInit</text>
-    <rect style="fill: #ffffff" x="-538.755" y="151.452" width="91.8" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-538.755" y="151.452" width="91.8" height="8"/>
-    <rect style="fill: #ffffff" x="-538.755" y="159.452" width="91.8" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-538.755" y="159.452" width="91.8" height="8"/>
+    <rect style="fill: #ffffff" x="-673.838" y="116.968" width="91.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-673.838" y="116.968" width="91.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-627.938" y="135.968">EventInit</text>
+    <rect style="fill: #ffffff" x="-673.838" y="144.968" width="91.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-673.838" y="144.968" width="91.8" height="8"/>
+    <rect style="fill: #ffffff" x="-673.838" y="152.968" width="91.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-673.838" y="152.968" width="91.8" height="8"/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="15.3181,179.649 15.3181,189.404 15.4935,189.404 15.4935,201.395 "/>
-    <polygon style="fill: #ffffff" points="23.3181,179.649 15.3181,163.649 7.31806,179.649 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="23.3181,179.649 15.3181,163.649 7.31806,179.649 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-119.764,173.164 -119.764,182.92 -119.588,182.92 -119.588,194.911 "/>
+    <polygon style="fill: #ffffff" points="-111.764,173.164 -119.764,157.164 -127.764,173.164 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-111.764,173.164 -119.764,157.164 -127.764,173.164 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-492.855,186.694 -492.855,202.835 -492.634,202.835 -492.634,221.212 "/>
-    <polygon style="fill: #ffffff" points="-484.855,186.694 -492.855,170.694 -500.855,186.694 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-484.855,186.694 -492.855,170.694 -500.855,186.694 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-627.938,180.209 -627.938,196.35 -627.716,196.35 -627.716,214.727 "/>
+    <polygon style="fill: #ffffff" points="-619.938,180.209 -627.938,164.209 -635.938,180.209 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-619.938,180.209 -627.938,164.209 -635.938,180.209 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="-151.206" y1="260.404" x2="-354.395" y2="254.342"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-341.605,249.722 -357.747,254.243 -341.903,259.717 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-304.02" y="246.9">{eventInitDict}</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="-286.288" y1="253.92" x2="-489.477" y2="247.858"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-476.686,243.237 -492.828,247.758 -476.985,253.233 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-450.289" y="238.674">{eventInitDict}</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="15.4935,288.64 15.4935,524.94 38.3724,524.94 "/>
-    <polygon style="fill: #ffffff" points="23.4935,288.64 15.4935,272.64 7.49351,288.64 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="23.4935,288.64 15.4935,272.64 7.49351,288.64 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-119.588,282.156 -119.588,524.94 38.3724,524.94 "/>
+    <polygon style="fill: #ffffff" points="-111.588,282.156 -119.588,266.156 -127.588,282.156 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-111.588,282.156 -119.588,266.156 -127.588,282.156 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="15.4935,288.64 15.4935,595.882 39.1436,595.882 "/>
-    <polygon style="fill: #ffffff" points="23.4935,288.64 15.4935,272.64 7.49351,288.64 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="23.4935,288.64 15.4935,272.64 7.49351,288.64 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-119.588,282.156 -119.588,595.882 39.1436,595.882 "/>
+    <polygon style="fill: #ffffff" points="-111.588,282.156 -119.588,266.156 -127.588,282.156 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-111.588,282.156 -119.588,266.156 -127.588,282.156 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1293.38" y="121.249" width="226.15" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1293.38" y="121.249" width="226.15" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1406.45" y="140.249">ConstraintErrorCallback</text>
+    <rect style="fill: #ffffff" x="1293.38" y="149.249" width="226.15" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1293.38" y="149.249" width="226.15" height="8"/>
+    <rect style="fill: #ffffff" x="1293.38" y="157.249" width="226.15" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1293.38" y="157.249" width="226.15" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1296.38" y="171.249">+(error:MediaError): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1518.35,320.012 1548.53,320.012 1548.53,135.249 1526.23,135.249 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1538.88,130.249 1522.88,135.249 1538.88,140.249 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1550.53" y="224.631">errorCallback</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1742.24" y="370.987" width="210.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1742.24" y="370.987" width="210.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1847.34" y="389.987">Constraints</text>
+    <rect style="fill: #ffffff" x="1742.24" y="398.987" width="210.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1742.24" y="398.987" width="210.2" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1745.24" y="412.987">+mandatory: ConstraintSet?</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1745.24" y="428.987">+optional: Constraint[]</text>
+    <rect style="fill: #ffffff" x="1742.24" y="434.987" width="210.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1742.24" y="434.987" width="210.2" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1518.35,320.012 1549.31,320.012 1549.31,384.987 1735.53,384.987 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1722.88,389.987 1738.88,384.987 1722.88,379.987 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1551.31" y="349.5">constraints</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1293.38,167.249 395.082,167.249 395.082,-16.0926 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.082,-3.44523 395.082,-19.4452 390.082,-3.44523 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="844.23" y="164.249">error</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1847.34,345.815 1847.34,268.012 1518.35,268.012 "/>
+    <polygon style="fill: #ffffff" points="1847.34,370.987 1842.54,356.987 1847.34,342.987 1852.14,356.987 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1847.34,370.987 1842.54,356.987 1847.34,342.987 1852.14,356.987 "/>
   </g>
 </svg>
