@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="186.805cm" height="87.850cm" viewBox="-115.050 -5.350 71.755 82.500"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="-36.000" y="30.000" width="28.990" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-36.000" y="30.000" width="28.990" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-21.505" y="30.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCPeerConnection</text>
+<rect x="-36.000" y="31.400" width="28.990" height="9.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-36.000" y="31.400" width="28.990" height="9.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-35.850" y="32.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++signalingState: RTCSignalingState (readonly)</text>
+<text x="-35.850" y="32.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++iceGatheringState: RTCIceGatheringState (readonly)</text>
+<text x="-35.850" y="33.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++iceConnectionState: RTCIceConnectionState (readonly)</text>
+<text x="-35.850" y="34.500"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++localDescription: RTCSessionDescription? (readonly)</text>
+<text x="-35.850" y="35.300"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++remoteDescription: RTCSessionDescription? (readonly)</text>
+<text x="-35.850" y="36.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++onnegotiationneeded: EventHandler</text>
+<text x="-35.850" y="36.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++onicecandidate: EventHandler</text>
+<text x="-35.850" y="37.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++onsignalingstatechange: EventHandler</text>
+<text x="-35.850" y="38.500"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++onaddstream: EventHandler</text>
+<text x="-35.850" y="39.300"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++onremovestream: EventHandler</text>
+<text x="-35.850" y="40.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++oniceconnectionstatechange: EventHandler</text>
+<rect x="-36.000" y="40.400" width="28.990" height="10.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-36.000" y="40.400" width="28.990" height="10.600" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-35.850" y="41.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++Constructor()</text>
+<text x="-35.850" y="41.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++createOffer(): void</text>
+<text x="-35.850" y="42.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++createAnswer(): void</text>
+<text x="-35.850" y="43.500"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++setLocalDescription(): void</text>
+<text x="-35.850" y="44.300"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++setRemoteDescription(): void</text>
+<text x="-35.850" y="45.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++updateIce(): void</text>
+<text x="-35.850" y="45.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++addIceCandidate(): void</text>
+<text x="-35.850" y="46.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++getLocalStreams(): sequence&lt;MediaStream&gt;</text>
+<text x="-35.850" y="47.500"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++getRemoteStreams(): sequence&lt;MediaStream&gt;</text>
+<text x="-35.850" y="48.300"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++getStreamById(streamId:DOMString): MediaStream?</text>
+<text x="-35.850" y="49.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++addStream(stream:MediaStream,constraints:optional MediaConstraints): void</text>
+<text x="-35.850" y="49.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++removeStream(stream:MediaStream): void</text>
+<text x="-35.850" y="50.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++close(): void</text>
+<rect x="-24.475" y="25.000" width="5.940" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-24.475" y="25.000" width="5.940" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-21.505" y="25.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+EventTarget</text>
+<rect x="-24.475" y="26.400" width="5.940" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-24.475" y="26.400" width="5.940" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-24.475" y="26.800" width="5.940" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-24.475" y="26.800" width="5.940" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-21.505,28.162 -21.505,28.100 -21.505,29.900 -21.505,29.950 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-21.105,28.162 -21.505,27.362 -21.905,28.162 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-21.105,28.162 -21.505,27.362 -21.905,28.162 "/>
+<rect x="-101.941" y="41.086" width="13.975" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-101.941" y="41.086" width="13.975" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-94.954" y="42.036"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCConfiguration</text>
+<rect x="-101.941" y="42.486" width="13.975" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-101.941" y="42.486" width="13.975" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-101.791" y="43.186"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++iceServers: sequence&lt;RTCIceServer&gt;</text>
+<rect x="-101.941" y="43.486" width="13.975" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-101.941" y="43.486" width="13.975" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-106.005" y="49.788" width="15.515" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-106.005" y="49.788" width="15.515" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-98.247" y="50.738"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCIceServer</text>
+<rect x="-106.005" y="51.188" width="15.515" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-106.005" y="51.188" width="15.515" height="2.600" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-105.855" y="51.888"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++urls: DOMString or Sequence&lt;DOMString&gt;</text>
+<text x="-105.855" y="52.688"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++username: DOMString? = null</text>
+<text x="-105.855" y="53.488"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++credential: DOMString?</text>
+<rect x="-106.005" y="53.788" width="15.515" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-106.005" y="53.788" width="15.515" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-101.941" y="44.788" width="7.388" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-101.941" y="44.788" width="7.388" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-98.247" y="46.933"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+sequence</text>
+<text x="-98.247" y="46.088"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;RTCIceServer&gt;&gt;</text>
+<line x1="-99.791" y1="47.085" x2="-96.704" y2="47.085" stroke="#000000" stroke-width="0.050" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-103.250,46.213 -103.742,46.213 -103.742,42.986 -101.941,42.986 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-101.992,46.213 -102.692,46.453 -103.392,46.213 -102.692,45.973 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-101.992,46.213 -102.692,46.453 -103.392,46.213 -102.692,45.973 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40" points="-98.247,47.688 -98.247,47.738 -98.247,49.287 -98.247,49.402 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-98.497,48.770 -98.247,49.570 -97.997,48.770 "/>
+<rect x="-83.674" y="46.637" width="14.665" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-83.674" y="46.637" width="14.665" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-76.341" y="47.437"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;callback&gt;&gt;</text>
+<text x="-76.341" y="48.387"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCSessionDescriptionCallback</text>
+<rect x="-83.674" y="48.837" width="14.665" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-83.674" y="48.837" width="14.665" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-83.524" y="49.537"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++(sdp): void</text>
+<rect x="-109.000" y="36.888" width="12.392" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-109.000" y="36.888" width="12.392" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-102.804" y="37.838"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCSessionDescriptionInit</text>
+<rect x="-109.000" y="38.288" width="12.392" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-109.000" y="38.288" width="12.392" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-108.850" y="38.988"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++type: RTCSdpType</text>
+<text x="-108.850" y="39.788"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++sdp: DOMString</text>
+<rect x="-109.000" y="40.088" width="12.392" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-109.000" y="40.088" width="12.392" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-76.000" y="34.001" width="17.440" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-76.000" y="34.001" width="17.440" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-67.280" y="34.801"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;sealizer = {attribute}&gt;&gt;</text>
+<text x="-67.280" y="35.751"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCSessionDescription</text>
+<rect x="-76.000" y="36.201" width="17.440" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-76.000" y="36.201" width="17.440" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-75.850" y="36.901"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++type: RTCSdpType?</text>
+<text x="-75.850" y="37.701"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++sdp: DOMString?</text>
+<rect x="-76.000" y="38.001" width="17.440" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-76.000" y="38.001" width="17.440" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-75.850" y="38.701"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++Constructor(descriptionInitDict:(optional))</text>
+<rect x="-84.441" y="53.788" width="15.433" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-84.441" y="53.788" width="15.433" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-76.725" y="54.588"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;callback&gt;&gt;</text>
+<text x="-76.725" y="55.538"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCPeerConnectionErrorCallback</text>
+<rect x="-84.441" y="55.988" width="15.433" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-84.441" y="55.988" width="15.433" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-84.291" y="56.688"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++(error:DOMError): void</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-57.301,35.101 -46.930,35.101 -46.930,34.300 -36.000,34.300 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-58.560,35.101 -57.860,34.861 -57.160,35.101 -57.860,35.341 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-58.560,35.101 -57.860,34.861 -57.160,35.101 -57.860,35.341 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-57.301,35.101 -46.930,35.101 -46.930,35.100 -36.000,35.100 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-58.560,35.101 -57.860,34.861 -57.160,35.101 -57.860,35.341 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-58.560,35.101 -57.860,34.861 -57.160,35.101 -57.860,35.341 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-44.502,30.690 -44.502,31.900 -36.000,31.900 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-44.502,29.431 -44.262,30.131 -44.502,30.831 -44.742,30.131 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-44.502,29.431 -44.262,30.131 -44.502,30.831 -44.742,30.131 "/>
+<rect x="-66.000" y="25.631" width="9.840" height="3.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-66.000" y="25.631" width="9.840" height="3.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-66.000" y="24.731" width="1.500" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-66.000" y="24.731" width="1.500" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-65.700" y="27.326"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;new&quot;,</text>
+<text x="-65.700" y="28.126"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;gathering&quot;,</text>
+<text x="-65.700" y="28.926"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;complete&quot;</text>
+<text x="-65.700" y="26.526"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;RTCIceGatheringState&gt;&gt;</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-61.080,30.690 -61.080,32.700 -36.000,32.700 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-61.080,29.431 -60.840,30.131 -61.080,30.831 -61.320,30.131 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-61.080,29.431 -60.840,30.131 -61.080,30.831 -61.320,30.131 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-80.888,30.690 -80.888,33.500 -36.000,33.500 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-80.888,29.431 -80.648,30.131 -80.888,30.831 -81.127,30.131 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-80.888,29.431 -80.648,30.131 -80.888,30.831 -81.127,30.131 "/>
+<rect x="-58.000" y="39.788" width="15.515" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-58.000" y="39.788" width="15.515" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-50.242" y="40.588"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;method&gt;&gt;</text>
+<text x="-50.242" y="41.538"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+Constructor</text>
+<rect x="-58.000" y="41.988" width="15.515" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-58.000" y="41.988" width="15.515" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-57.850" y="42.688"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++configuration: RTCConfiguration</text>
+<text x="-57.850" y="43.488"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++constraints: optional MediaConstraints</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-41.226,40.888 -41.000,40.888 -41.000,40.900 -36.000,40.900 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-42.485,40.888 -41.785,40.648 -41.085,40.888 -41.785,41.128 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-42.485,40.888 -41.785,40.648 -41.085,40.888 -41.785,41.128 "/>
+<rect x="-61.465" y="45.038" width="18.980" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-61.465" y="45.038" width="18.980" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-51.975" y="45.838"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;method&gt;&gt;</text>
+<text x="-51.975" y="46.788"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+createOffer / createAnswer</text>
+<rect x="-61.465" y="47.238" width="18.980" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-61.465" y="47.238" width="18.980" height="2.600" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-61.315" y="47.938"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++successCallback: RTCSessionDescriptionCallback</text>
+<text x="-61.315" y="48.738"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++failureCallback: RTCPeerConnectionErrorCallback</text>
+<text x="-61.315" y="49.538"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++constraints: optional MediaConstraints</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-41.226,46.138 -40.000,46.138 -40.000,41.700 -36.000,41.700 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-42.485,46.138 -41.785,45.898 -41.085,46.138 -41.785,46.378 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-42.485,46.138 -41.785,45.898 -41.085,46.138 -41.785,46.378 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-41.226,46.138 -40.000,46.138 -40.000,42.500 -36.000,42.500 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-42.485,46.138 -41.785,45.898 -41.085,46.138 -41.785,46.378 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-42.485,46.138 -41.785,45.898 -41.085,46.138 -41.785,46.378 "/>
+<rect x="-62.803" y="51.088" width="20.318" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-62.803" y="51.088" width="20.318" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-52.644" y="51.888"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;method&gt;&gt;</text>
+<text x="-52.644" y="52.838"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+setLocalDescription / setRemoteDescription</text>
+<rect x="-62.803" y="53.288" width="20.318" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-62.803" y="53.288" width="20.318" height="2.600" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-62.653" y="53.988"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++description: RTCSessionDescription</text>
+<text x="-62.653" y="54.788"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++successCallback: VoidFunction</text>
+<text x="-62.653" y="55.588"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++failureCallback: RTCPeerConnectionErrorCallback</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-41.226,52.188 -39.000,52.188 -39.000,43.300 -36.000,43.300 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-42.485,52.188 -41.785,51.948 -41.085,52.188 -41.785,52.428 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-42.485,52.188 -41.785,51.948 -41.085,52.188 -41.785,52.428 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-41.226,52.188 -39.000,52.188 -39.000,44.100 -36.000,44.100 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-42.485,52.188 -41.785,51.948 -41.085,52.188 -41.785,52.428 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-42.485,52.188 -41.785,51.948 -41.085,52.188 -41.785,52.428 "/>
+<rect x="-58.770" y="57.138" width="16.285" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-58.770" y="57.138" width="16.285" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-50.627" y="57.938"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;method&gt;&gt;</text>
+<text x="-50.627" y="58.888"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+updateIce</text>
+<rect x="-58.770" y="59.338" width="16.285" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-58.770" y="59.338" width="16.285" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-58.620" y="60.038"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++configuration: optional RTCConfiguration</text>
+<text x="-58.620" y="60.838"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++constraints: optional MediaConstraints</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-41.226,58.238 -38.000,58.238 -38.000,44.900 -36.000,44.900 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-42.485,58.238 -41.785,57.998 -41.085,58.238 -41.785,58.478 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-42.485,58.238 -41.785,57.998 -41.085,58.238 -41.785,58.478 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-86.658,42.486 -86.000,42.486 -86.000,59.838 -58.770,59.838 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-87.917,42.486 -87.217,42.246 -86.517,42.486 -87.217,42.726 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-87.917,42.486 -87.217,42.246 -86.517,42.486 -87.217,42.726 "/>
+<rect x="-61.465" y="62.788" width="18.980" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-61.465" y="62.788" width="18.980" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-51.975" y="63.588"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;method&gt;&gt;</text>
+<text x="-51.975" y="64.538"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+addIceCandidate</text>
+<rect x="-61.465" y="64.988" width="18.980" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-61.465" y="64.988" width="18.980" height="2.600" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-61.315" y="65.688"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++candidate: RTCIceCandidate</text>
+<text x="-61.315" y="66.488"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++successCallback: VoidFunction</text>
+<text x="-61.315" y="67.288"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++failureCallback: RTCPeerConnectionErrorCallback</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-41.226,63.888 -37.000,63.888 -37.000,45.700 -36.000,45.700 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-42.485,63.888 -41.785,63.648 -41.085,63.888 -41.785,64.128 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-42.485,63.888 -41.785,63.648 -41.085,63.888 -41.785,64.128 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-86.657,42.486 -72.608,42.486 -72.608,42.488 -58.000,42.488 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-87.916,42.486 -87.216,42.246 -86.516,42.486 -87.216,42.726 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-87.916,42.486 -87.216,42.246 -86.516,42.486 -87.216,42.726 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-67.750,47.737 -64.887,47.737 -64.887,47.738 -61.465,47.738 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-69.009,47.737 -68.309,47.497 -67.609,47.737 -68.309,47.977 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-69.009,47.737 -68.309,47.497 -67.609,47.737 -68.309,47.977 "/>
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="-67.700,55.388 -64.862,55.388 -64.862,48.538 -61.465,48.538 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-68.958,55.388 -68.258,55.148 -67.558,55.388 -68.258,55.628 "/>
+<polygon fill="none" stroke="#FF0000" stroke-width="0.100"  points="-68.958,55.388 -68.258,55.148 -67.558,55.388 -68.258,55.628 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-67.280,40.259 -67.280,49.337 -69.009,49.337 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-67.280,39.001 -67.040,39.701 -67.280,40.401 -67.520,39.701 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-67.280,39.001 -67.040,39.701 -67.280,40.401 -67.520,39.701 "/>
+<text x="-68.144" y="49.137"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+sdp</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-95.349,37.588 -94.000,37.588 -94.000,38.501 -76.000,38.501 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-96.608,37.588 -95.907,37.348 -95.207,37.588 -95.907,37.828 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-96.608,37.588 -95.907,37.348 -95.207,37.588 -95.907,37.828 "/>
+<text x="-93.900" y="37.844"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+descriptionInitDict</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-67.280,40.310 -67.280,53.788 -62.803,53.788 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-67.280,39.051 -67.040,39.751 -67.280,40.451 -67.520,39.751 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-67.280,39.051 -67.040,39.751 -67.280,40.451 -67.520,39.751 "/>
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="-67.700,55.388 -65.530,55.388 -65.530,55.388 -62.803,55.388 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-68.958,55.388 -68.258,55.148 -67.558,55.388 -68.258,55.628 "/>
+<polygon fill="none" stroke="#FF0000" stroke-width="0.100"  points="-68.958,55.388 -68.258,55.148 -67.558,55.388 -68.258,55.628 "/>
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="-67.700,55.388 -64.862,55.388 -64.862,67.088 -61.465,67.088 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-68.958,55.388 -68.258,55.148 -67.558,55.388 -68.258,55.628 "/>
+<polygon fill="none" stroke="#FF0000" stroke-width="0.100"  points="-68.958,55.388 -68.258,55.148 -67.558,55.388 -68.258,55.628 "/>
+<rect x="-75.805" y="77.378" width="12.050" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-75.805" y="77.378" width="12.050" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-69.780" y="78.328"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCIceCandidateInit</text>
+<rect x="-75.805" y="78.778" width="12.050" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-75.805" y="78.778" width="12.050" height="2.600" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-75.655" y="79.478"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++candidate: DOMSTring</text>
+<text x="-75.655" y="80.278"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++sdpMid: DOMString</text>
+<text x="-75.655" y="81.078"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++sdpMLineIndex: unsigned short</text>
+<rect x="-75.805" y="69.788" width="15.900" height="2.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-75.805" y="69.788" width="15.900" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-67.855" y="70.588"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;serialzer = {attribute}&gt;&gt;</text>
+<text x="-67.855" y="71.538"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCIceCandidate</text>
+<rect x="-75.805" y="71.988" width="15.900" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-75.805" y="71.988" width="15.900" height="2.600" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-75.655" y="72.688"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++candidate: DOMString?</text>
+<text x="-75.655" y="73.488"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++sdpMid: DOMString?</text>
+<text x="-75.655" y="74.288"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++sdpMLineIndex: unsigned short?</text>
+<rect x="-75.805" y="74.588" width="15.900" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-75.805" y="74.588" width="15.900" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-75.655" y="75.288"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++Constructor(candidateInitDict:optional)</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-77.063,78.078 -77.555,78.078 -77.555,75.088 -75.805,75.088 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-75.805,78.078 -76.505,78.318 -77.205,78.078 -76.505,77.838 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-75.805,78.078 -76.505,78.318 -77.205,78.078 -76.505,77.838 "/>
+<text x="-77.455" y="76.383"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+candidateInitDict</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-67.855,68.479 -67.855,65.488 -61.465,65.488 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-67.855,69.737 -68.095,69.037 -67.855,68.337 -67.615,69.037 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-67.855,69.737 -68.095,69.037 -67.855,68.337 -67.615,69.037 "/>
+<rect x="-66.710" y="-3.000" width="33.250" height="20.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-66.710" y="-3.000" width="33.250" height="20.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-66.710" y="-4.800" width="7.900" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-66.710" y="-4.800" width="7.900" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-66.610" y="-4.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;State transition&gt;&gt;</text>
+<text x="-66.610" y="-3.300"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+RTCSignalingState</text>
+<rect x="-64.595" y="-0.200" width="5.028" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -64.595,-0.200 A 0.500,0.500 0 0,0 -65.095,0.300 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -59.067,0.300 A 0.500,0.500 0 0,0 -59.567,-0.200 "/>
+<rect x="-65.095" y="0.300" width="6.028" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -65.095,1.100 A 0.500,0.500 0 0,0 -64.595,1.600 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -59.567,1.600 A 0.500,0.500 0 0,0 -59.067,1.100 "/>
+<line x1="-64.595" y1="-0.200" x2="-59.567" y2="-0.200" stroke="#000000" stroke-width="0.100" />
+<line x1="-64.595" y1="1.600" x2="-59.567" y2="1.600" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -64.595,-0.200 A 0.500,0.500 0 0,0 -65.095,0.300 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -59.067,0.300 A 0.500,0.500 0 0,0 -59.567,-0.200 "/>
+<line x1="-65.095" y1="0.300" x2="-65.095" y2="1.100" stroke="#000000" stroke-width="0.100" />
+<line x1="-59.067" y1="0.300" x2="-59.067" y2="1.100" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -65.095,1.100 A 0.500,0.500 0 0,0 -64.595,1.600 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -59.567,1.600 A 0.500,0.500 0 0,0 -59.067,1.100 "/>
+<text x="-62.081" y="0.895"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+have-local-offer</text>
+<rect x="-47.000" y="-0.183" width="7.315" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -47.000,-0.183 A 0.500,0.500 0 0,0 -47.500,0.317 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -39.185,0.317 A 0.500,0.500 0 0,0 -39.685,-0.183 "/>
+<rect x="-47.500" y="0.317" width="8.315" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -47.500,1.117 A 0.500,0.500 0 0,0 -47.000,1.617 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -39.685,1.617 A 0.500,0.500 0 0,0 -39.185,1.117 "/>
+<line x1="-47.000" y1="-0.183" x2="-39.685" y2="-0.183" stroke="#000000" stroke-width="0.100" />
+<line x1="-47.000" y1="1.617" x2="-39.685" y2="1.617" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -47.000,-0.183 A 0.500,0.500 0 0,0 -47.500,0.317 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -39.185,0.317 A 0.500,0.500 0 0,0 -39.685,-0.183 "/>
+<line x1="-47.500" y1="0.317" x2="-47.500" y2="1.117" stroke="#000000" stroke-width="0.100" />
+<line x1="-39.185" y1="0.317" x2="-39.185" y2="1.117" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -47.500,1.117 A 0.500,0.500 0 0,0 -47.000,1.617 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -39.685,1.617 A 0.500,0.500 0 0,0 -39.185,1.117 "/>
+<text x="-43.342" y="0.912"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+have-remote-pranswer</text>
+<rect x="-44.842" y="6.300" width="3.000" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -44.842,6.300 A 0.500,0.500 0 0,0 -45.342,6.800 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -41.342,6.800 A 0.500,0.500 0 0,0 -41.842,6.300 "/>
+<rect x="-45.342" y="6.800" width="4.000" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -45.342,7.600 A 0.500,0.500 0 0,0 -44.842,8.100 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -41.842,8.100 A 0.500,0.500 0 0,0 -41.342,7.600 "/>
+<line x1="-44.842" y1="6.300" x2="-41.842" y2="6.300" stroke="#000000" stroke-width="0.100" />
+<line x1="-44.842" y1="8.100" x2="-41.842" y2="8.100" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -44.842,6.300 A 0.500,0.500 0 0,0 -45.342,6.800 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -41.342,6.800 A 0.500,0.500 0 0,0 -41.842,6.300 "/>
+<line x1="-45.342" y1="6.800" x2="-45.342" y2="7.600" stroke="#000000" stroke-width="0.100" />
+<line x1="-41.342" y1="6.800" x2="-41.342" y2="7.600" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -45.342,7.600 A 0.500,0.500 0 0,0 -44.842,8.100 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -41.842,8.100 A 0.500,0.500 0 0,0 -41.342,7.600 "/>
+<text x="-43.342" y="7.395"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+stable</text>
+<rect x="-65.000" y="13.300" width="5.837" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -65.000,13.300 A 0.500,0.500 0 0,0 -65.500,13.800 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -58.663,13.800 A 0.500,0.500 0 0,0 -59.163,13.300 "/>
+<rect x="-65.500" y="13.800" width="6.837" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -65.500,14.600 A 0.500,0.500 0 0,0 -65.000,15.100 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -59.163,15.100 A 0.500,0.500 0 0,0 -58.663,14.600 "/>
+<line x1="-65.000" y1="13.300" x2="-59.163" y2="13.300" stroke="#000000" stroke-width="0.100" />
+<line x1="-65.000" y1="15.100" x2="-59.163" y2="15.100" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -65.000,13.300 A 0.500,0.500 0 0,0 -65.500,13.800 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -58.663,13.800 A 0.500,0.500 0 0,0 -59.163,13.300 "/>
+<line x1="-65.500" y1="13.800" x2="-65.500" y2="14.600" stroke="#000000" stroke-width="0.100" />
+<line x1="-58.663" y1="13.800" x2="-58.663" y2="14.600" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -65.500,14.600 A 0.500,0.500 0 0,0 -65.000,15.100 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -59.163,15.100 A 0.500,0.500 0 0,0 -58.663,14.600 "/>
+<text x="-62.081" y="14.395"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+have-remote-offer</text>
+<rect x="-46.595" y="13.300" width="6.505" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -46.595,13.300 A 0.500,0.500 0 0,0 -47.095,13.800 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -39.590,13.800 A 0.500,0.500 0 0,0 -40.090,13.300 "/>
+<rect x="-47.095" y="13.800" width="7.505" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -47.095,14.600 A 0.500,0.500 0 0,0 -46.595,15.100 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -40.090,15.100 A 0.500,0.500 0 0,0 -39.590,14.600 "/>
+<line x1="-46.595" y1="13.300" x2="-40.090" y2="13.300" stroke="#000000" stroke-width="0.100" />
+<line x1="-46.595" y1="15.100" x2="-40.090" y2="15.100" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -46.595,13.300 A 0.500,0.500 0 0,0 -47.095,13.800 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -39.590,13.800 A 0.500,0.500 0 0,0 -40.090,13.300 "/>
+<line x1="-47.095" y1="13.800" x2="-47.095" y2="14.600" stroke="#000000" stroke-width="0.100" />
+<line x1="-39.590" y1="13.800" x2="-39.590" y2="14.600" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -47.095,14.600 A 0.500,0.500 0 0,0 -46.595,15.100 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -40.090,15.100 A 0.500,0.500 0 0,0 -39.590,14.600 "/>
+<text x="-43.342" y="14.395"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+have-local-pranswer</text>
+<rect x="-39.474" y="5.093" width="4.285" height="4.200" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -39.474,5.093 A 0.500,0.500 0 0,0 -39.974,5.593 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -34.689,5.593 A 0.500,0.500 0 0,0 -35.189,5.093 "/>
+<rect x="-39.974" y="5.593" width="5.285" height="3.200" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -39.974,8.793 A 0.500,0.500 0 0,0 -39.474,9.293 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -35.189,9.293 A 0.500,0.500 0 0,0 -34.689,8.793 "/>
+<line x1="-39.474" y1="5.093" x2="-35.189" y2="5.093" stroke="#000000" stroke-width="0.100" />
+<line x1="-39.474" y1="9.293" x2="-35.189" y2="9.293" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -39.474,5.093 A 0.500,0.500 0 0,0 -39.974,5.593 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -34.689,5.593 A 0.500,0.500 0 0,0 -35.189,5.093 "/>
+<line x1="-39.974" y1="5.593" x2="-39.974" y2="8.793" stroke="#000000" stroke-width="0.100" />
+<line x1="-34.689" y1="5.593" x2="-34.689" y2="8.793" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -39.974,8.793 A 0.500,0.500 0 0,0 -39.474,9.293 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -35.189,9.293 A 0.500,0.500 0 0,0 -34.689,8.793 "/>
+<text x="-37.331" y="6.188"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+closed</text>
+<text x="-37.331" y="6.988"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+(can be</text>
+<text x="-37.331" y="7.788"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+reached from</text>
+<text x="-37.331" y="8.588"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+any sate)</text>
+<ellipse cx="-64.500" cy="7.193" rx="0.500" ry="0.500" fill="#000000" stroke="none"  /><polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-63.950,7.193 -54.671,7.193 -54.671,7.200 -45.616,7.200 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-46.005,7.450 -45.505,7.200 -46.005,6.950 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-45.342,6.300 -45.342,5.500 -62.081,5.500 -62.081,1.824 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-61.831,2.212 -62.081,1.712 -62.331,2.212 "/>
+<text x="-47.733" y="6.100"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+setLocal/Offer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-59.067,1.600 -59.067,3.925 -43.342,3.925 -43.342,6.026 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-43.592,5.638 -43.342,6.138 -43.092,5.638 "/>
+<text x="-55.733" y="3.700"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetRemote/Answer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-65.095,-0.200 -65.095,-1.700 -62.081,-1.700 -62.081,-0.424 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-62.331,-0.812 -62.081,-0.312 -61.831,-0.812 "/>
+<text x="-63.502" y="-1.900"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetLocal/Offer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-59.067,0.700 -53.309,0.700 -53.309,0.717 -47.774,0.717 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-48.162,0.967 -47.662,0.717 -48.162,0.467 "/>
+<text x="-52.547" y="0.307"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetRemote/PRAnswer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-47.500,-0.183 -47.500,-1.734 -43.342,-1.734 -43.342,-0.457 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-43.592,-0.845 -43.342,-0.345 -43.092,-0.845 "/>
+<text x="-45.579" y="-1.936"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetRemote/PRAnswer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-43.342,1.617 -43.342,2.117 -43.342,5.800 -43.342,6.076 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-43.592,5.688 -43.342,6.188 -43.092,5.688 "/>
+<text x="-40.085" y="2.507"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetRemote/Answer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-45.342,8.100 -45.342,9.000 -62.081,9.000 -62.081,13.076 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-62.331,12.688 -62.081,13.188 -61.831,12.688 "/>
+<text x="-48.185" y="8.800"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetRemote/Offer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-58.663,13.300 -58.663,10.700 -43.342,10.700 -43.342,8.324 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-43.092,8.712 -43.342,8.212 -43.592,8.712 "/>
+<text x="-55.885" y="11.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetLocal/Answer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-58.663,14.200 -58.163,14.200 -47.595,14.200 -47.319,14.200 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-47.707,14.450 -47.207,14.200 -47.707,13.950 "/>
+<text x="-52.700" y="14.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetLocal/PRAnswer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-43.342,13.300 -43.342,12.800 -43.342,8.600 -43.342,8.324 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-43.092,8.712 -43.342,8.212 -43.592,8.712 "/>
+<text x="-40.600" y="13.100"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetLocal/Answer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-65.500,15.100 -65.500,16.600 -62.081,16.600 -62.081,15.324 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-61.831,15.712 -62.081,15.212 -62.331,15.712 "/>
+<text x="-63.650" y="17.200"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetRemote/Offer</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-47.095,15.100 -47.095,16.600 -43.342,16.600 -43.342,15.324 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-43.092,15.712 -43.342,15.212 -43.592,15.712 "/>
+<text x="-45.503" y="17.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SetLocal/PRAnswer</text>
+<line x1="-50.000" y1="23.231" x2="-50.027" y2="18.185" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-49.774,18.816 -50.028,18.017 -50.274,18.819 "/>
+<text x="-50.014" y="20.340"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+{Transition diagram}</text>
+<rect x="-101.000" y="31.701" width="6.375" height="3.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-101.000" y="31.701" width="6.375" height="3.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-101.000" y="30.801" width="1.500" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-101.000" y="30.801" width="1.500" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-100.700" y="33.396"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;offer&quot;,</text>
+<text x="-100.700" y="34.196"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;pranswer&quot;,</text>
+<text x="-100.700" y="34.996"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;answer&quot;</text>
+<text x="-100.700" y="32.596"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;RTCSdpType&gt;&gt;</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-93.366,33.601 -84.963,33.601 -84.963,36.701 -76.000,36.701 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-94.625,33.601 -93.925,33.361 -93.225,33.601 -93.925,33.841 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-94.625,33.601 -93.925,33.361 -93.225,33.601 -93.925,33.841 "/>
+<rect x="-50.000" y="23.231" width="10.995" height="6.200" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-50.000" y="23.231" width="10.995" height="6.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-50.000" y="22.331" width="1.500" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-50.000" y="22.331" width="1.500" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-49.700" y="24.926"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;stable&quot;</text>
+<text x="-49.700" y="25.726"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;have-local-offer&quot;,</text>
+<text x="-49.700" y="26.526"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;have-remote-offer&quot;,</text>
+<text x="-49.700" y="27.326"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;have-local-pranswer&quot;,</text>
+<text x="-49.700" y="28.126"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;have-remote-pranswer&quot;,</text>
+<text x="-49.700" y="28.926"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;closed&quot;</text>
+<text x="-49.700" y="24.126"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;RTCSignalingState&gt;&gt;</text>
+<rect x="-115.000" y="-3.500" width="45.000" height="20.500" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-115.000" y="-3.500" width="45.000" height="20.500" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-115.000" y="-5.300" width="8.285" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-115.000" y="-5.300" width="8.285" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-114.900" y="-4.600"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;State transition&gt;&gt;</text>
+<text x="-114.900" y="-3.800"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+RTCIceConnectionState</text>
+<line x1="-86.000" y1="22.431" x2="-88.102" y2="17.359" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-87.629,17.847 -88.167,17.204 -88.091,18.039 "/>
+<text x="-87.115" y="19.540"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+{Transition diagram}</text>
+<rect x="-86.000" y="22.431" width="10.225" height="7.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-86.000" y="22.431" width="10.225" height="7.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-86.000" y="21.531" width="1.500" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-86.000" y="21.531" width="1.500" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-85.700" y="24.126"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;new&quot;,</text>
+<text x="-85.700" y="24.926"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;checking&quot;,</text>
+<text x="-85.700" y="25.726"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;connected&quot;,</text>
+<text x="-85.700" y="26.526"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;completed&quot;,</text>
+<text x="-85.700" y="27.326"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;failed&quot;,</text>
+<text x="-85.700" y="28.126"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;disconnected&quot;,</text>
+<text x="-85.700" y="28.926"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+    &quot;closed&quot;</text>
+<text x="-85.700" y="23.326"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;RTCIceConnectionState&gt;&gt;</text>
+<rect x="-113.038" y="5.024" width="3.000" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -113.038,5.024 A 0.500,0.500 0 0,0 -113.538,5.524 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -109.538,5.524 A 0.500,0.500 0 0,0 -110.038,5.024 "/>
+<rect x="-113.538" y="5.524" width="4.000" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -113.538,6.324 A 0.500,0.500 0 0,0 -113.038,6.824 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -110.038,6.824 A 0.500,0.500 0 0,0 -109.538,6.324 "/>
+<line x1="-113.038" y1="5.024" x2="-110.038" y2="5.024" stroke="#000000" stroke-width="0.100" />
+<line x1="-113.038" y1="6.824" x2="-110.038" y2="6.824" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -113.038,5.024 A 0.500,0.500 0 0,0 -113.538,5.524 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -109.538,5.524 A 0.500,0.500 0 0,0 -110.038,5.024 "/>
+<line x1="-113.538" y1="5.524" x2="-113.538" y2="6.324" stroke="#000000" stroke-width="0.100" />
+<line x1="-109.538" y1="5.524" x2="-109.538" y2="6.324" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -113.538,6.324 A 0.500,0.500 0 0,0 -113.038,6.824 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -110.038,6.824 A 0.500,0.500 0 0,0 -109.538,6.324 "/>
+<text x="-111.538" y="6.119"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+new</text>
+<rect x="-98.998" y="7.250" width="3.000" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -98.998,7.250 A 0.500,0.500 0 0,0 -99.498,7.750 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -95.498,7.750 A 0.500,0.500 0 0,0 -95.998,7.250 "/>
+<rect x="-99.498" y="7.750" width="4.000" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -99.498,8.550 A 0.500,0.500 0 0,0 -98.998,9.050 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -95.998,9.050 A 0.500,0.500 0 0,0 -95.498,8.550 "/>
+<line x1="-98.998" y1="7.250" x2="-95.998" y2="7.250" stroke="#000000" stroke-width="0.100" />
+<line x1="-98.998" y1="9.050" x2="-95.998" y2="9.050" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -98.998,7.250 A 0.500,0.500 0 0,0 -99.498,7.750 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -95.498,7.750 A 0.500,0.500 0 0,0 -95.998,7.250 "/>
+<line x1="-99.498" y1="7.750" x2="-99.498" y2="8.550" stroke="#000000" stroke-width="0.100" />
+<line x1="-95.498" y1="7.750" x2="-95.498" y2="8.550" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -99.498,8.550 A 0.500,0.500 0 0,0 -98.998,9.050 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -95.998,9.050 A 0.500,0.500 0 0,0 -95.498,8.550 "/>
+<text x="-97.498" y="8.345"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+checking</text>
+<rect x="-86.733" y="7.250" width="3.355" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -86.733,7.250 A 0.500,0.500 0 0,0 -87.233,7.750 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -82.878,7.750 A 0.500,0.500 0 0,0 -83.378,7.250 "/>
+<rect x="-87.233" y="7.750" width="4.355" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -87.233,8.550 A 0.500,0.500 0 0,0 -86.733,9.050 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -83.378,9.050 A 0.500,0.500 0 0,0 -82.878,8.550 "/>
+<line x1="-86.733" y1="7.250" x2="-83.378" y2="7.250" stroke="#000000" stroke-width="0.100" />
+<line x1="-86.733" y1="9.050" x2="-83.378" y2="9.050" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -86.733,7.250 A 0.500,0.500 0 0,0 -87.233,7.750 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -82.878,7.750 A 0.500,0.500 0 0,0 -83.378,7.250 "/>
+<line x1="-87.233" y1="7.750" x2="-87.233" y2="8.550" stroke="#000000" stroke-width="0.100" />
+<line x1="-82.878" y1="7.750" x2="-82.878" y2="8.550" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -87.233,8.550 A 0.500,0.500 0 0,0 -86.733,9.050 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -83.378,9.050 A 0.500,0.500 0 0,0 -82.878,8.550 "/>
+<text x="-85.056" y="8.345"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+connected</text>
+<rect x="-74.960" y="7.250" width="3.400" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -74.960,7.250 A 0.500,0.500 0 0,0 -75.460,7.750 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -71.060,7.750 A 0.500,0.500 0 0,0 -71.560,7.250 "/>
+<rect x="-75.460" y="7.750" width="4.400" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -75.460,8.550 A 0.500,0.500 0 0,0 -74.960,9.050 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -71.560,9.050 A 0.500,0.500 0 0,0 -71.060,8.550 "/>
+<line x1="-74.960" y1="7.250" x2="-71.560" y2="7.250" stroke="#000000" stroke-width="0.100" />
+<line x1="-74.960" y1="9.050" x2="-71.560" y2="9.050" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -74.960,7.250 A 0.500,0.500 0 0,0 -75.460,7.750 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -71.060,7.750 A 0.500,0.500 0 0,0 -71.560,7.250 "/>
+<line x1="-75.460" y1="7.750" x2="-75.460" y2="8.550" stroke="#000000" stroke-width="0.100" />
+<line x1="-71.060" y1="7.750" x2="-71.060" y2="8.550" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -75.460,8.550 A 0.500,0.500 0 0,0 -74.960,9.050 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -71.560,9.050 A 0.500,0.500 0 0,0 -71.060,8.550 "/>
+<text x="-73.260" y="8.345"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+completed</text>
+<rect x="-98.998" y="11.184" width="3.000" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -98.998,11.184 A 0.500,0.500 0 0,0 -99.498,11.684 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -95.498,11.684 A 0.500,0.500 0 0,0 -95.998,11.184 "/>
+<rect x="-99.498" y="11.684" width="4.000" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -99.498,12.484 A 0.500,0.500 0 0,0 -98.998,12.984 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -95.998,12.984 A 0.500,0.500 0 0,0 -95.498,12.484 "/>
+<line x1="-98.998" y1="11.184" x2="-95.998" y2="11.184" stroke="#000000" stroke-width="0.100" />
+<line x1="-98.998" y1="12.984" x2="-95.998" y2="12.984" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -98.998,11.184 A 0.500,0.500 0 0,0 -99.498,11.684 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -95.498,11.684 A 0.500,0.500 0 0,0 -95.998,11.184 "/>
+<line x1="-99.498" y1="11.684" x2="-99.498" y2="12.484" stroke="#000000" stroke-width="0.100" />
+<line x1="-95.498" y1="11.684" x2="-95.498" y2="12.484" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -99.498,12.484 A 0.500,0.500 0 0,0 -98.998,12.984 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -95.998,12.984 A 0.500,0.500 0 0,0 -95.498,12.484 "/>
+<text x="-97.498" y="12.279"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+failed</text>
+<rect x="-87.192" y="11.184" width="4.272" height="1.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -87.192,11.184 A 0.500,0.500 0 0,0 -87.692,11.684 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -82.419,11.684 A 0.500,0.500 0 0,0 -82.919,11.184 "/>
+<rect x="-87.692" y="11.684" width="5.272" height="0.800" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -87.692,12.484 A 0.500,0.500 0 0,0 -87.192,12.984 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -82.919,12.984 A 0.500,0.500 0 0,0 -82.419,12.484 "/>
+<line x1="-87.192" y1="11.184" x2="-82.919" y2="11.184" stroke="#000000" stroke-width="0.100" />
+<line x1="-87.192" y1="12.984" x2="-82.919" y2="12.984" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -87.192,11.184 A 0.500,0.500 0 0,0 -87.692,11.684 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -82.419,11.684 A 0.500,0.500 0 0,0 -82.919,11.184 "/>
+<line x1="-87.692" y1="11.684" x2="-87.692" y2="12.484" stroke="#000000" stroke-width="0.100" />
+<line x1="-82.419" y1="11.684" x2="-82.419" y2="12.484" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -87.692,12.484 A 0.500,0.500 0 0,0 -87.192,12.984 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -82.919,12.984 A 0.500,0.500 0 0,0 -82.419,12.484 "/>
+<text x="-85.056" y="12.279"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+disconnected</text>
+<rect x="-76.960" y="13.000" width="5.105" height="3.400" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -76.960,13.000 A 0.500,0.500 0 0,0 -77.460,13.500 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -71.355,13.500 A 0.500,0.500 0 0,0 -71.855,13.000 "/>
+<rect x="-77.460" y="13.500" width="6.105" height="2.400" fill="#ADD8E6" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#ADD8E6" d ="M -77.460,15.900 A 0.500,0.500 0 0,0 -76.960,16.400 "/>
+<path stroke="none" fill="#ADD8E6" d ="M -71.855,16.400 A 0.500,0.500 0 0,0 -71.355,15.900 "/>
+<line x1="-76.960" y1="13.000" x2="-71.855" y2="13.000" stroke="#000000" stroke-width="0.100" />
+<line x1="-76.960" y1="16.400" x2="-71.855" y2="16.400" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -76.960,13.000 A 0.500,0.500 0 0,0 -77.460,13.500 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -71.355,13.500 A 0.500,0.500 0 0,0 -71.855,13.000 "/>
+<line x1="-77.460" y1="13.500" x2="-77.460" y2="15.900" stroke="#000000" stroke-width="0.100" />
+<line x1="-71.355" y1="13.500" x2="-71.355" y2="15.900" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -77.460,15.900 A 0.500,0.500 0 0,0 -76.960,16.400 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -71.855,16.400 A 0.500,0.500 0 0,0 -71.355,15.900 "/>
+<text x="-74.407" y="14.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+closed</text>
+<text x="-74.407" y="14.895"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+(reachable from</text>
+<text x="-74.407" y="15.695"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+any state)</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-109.538,6.824 -109.500,6.824 -109.500,8.150 -99.771,8.150 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-100.160,8.400 -99.660,8.150 -100.160,7.900 "/>
+<text x="-105.000" y="9.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ANY remote candidates received</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-97.498,9.100 -97.498,9.600 -97.498,10.634 -97.498,10.910 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-97.748,10.522 -97.498,11.022 -97.248,10.522 "/>
+<text x="-96.032" y="10.200"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+gave up</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-95.448,8.150 -94.948,8.150 -87.783,8.150 -87.507,8.150 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-87.895,8.400 -87.395,8.150 -87.895,7.900 "/>
+<text x="-91.400" y="7.800"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+found usable connection</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-97.498,12.984 -97.498,14.484 -111.538,14.484 -111.538,7.047 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-111.288,7.435 -111.538,6.935 -111.788,7.435 "/>
+<text x="-100.600" y="14.200"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ICE restart occurs</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-95.498,12.084 -94.998,12.084 -88.192,12.084 -87.915,12.084 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-88.304,12.334 -87.804,12.084 -88.304,11.834 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-85.056,12.984 -85.056,15.000 -113.538,15.000 -113.538,7.047 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-113.288,7.435 -113.538,6.935 -113.788,7.435 "/>
+<text x="-88.000" y="14.800"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ICE restart occurs</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-87.692,12.984 -88.192,12.984 -94.998,12.984 -95.274,12.984 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-94.886,12.734 -95.386,12.984 -94.886,13.234 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-85.056,9.050 -85.056,9.550 -85.056,10.684 -85.056,10.961 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-85.306,10.573 -85.056,11.073 -84.806,10.573 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-87.692,11.184 -87.692,11.000 -87.233,11.000 -87.233,9.274 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-86.983,9.662 -87.233,9.162 -87.483,9.662 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-99.498,7.250 -99.500,7.250 -99.500,5.924 -109.314,5.924 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-108.926,5.674 -109.426,5.924 -108.926,6.174 "/>
+<text x="-102.600" y="6.600"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ICE restart occurs</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-85.056,7.250 -85.056,5.024 -109.314,5.024 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-108.926,4.774 -109.426,5.024 -108.926,5.274 "/>
+<text x="-88.200" y="5.800"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ICE restart occurs</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-73.260,7.250 -73.260,3.524 -111.538,3.524 -111.538,4.800 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-111.788,4.412 -111.538,4.912 -111.288,4.412 "/>
+<text x="-76.200" y="4.224"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ICE restart occurs</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-82.828,8.150 -82.328,8.150 -75.960,8.150 -75.683,8.150 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-76.072,8.400 -75.572,8.150 -76.072,7.900 "/>
+<text x="-79.300" y="7.900"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+finished all checks</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-82.419,11.184 -82.419,10.117 -73.260,10.117 -73.260,9.274 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-73.010,9.662 -73.260,9.162 -73.510,9.662 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-71.060,9.050 -71.060,12.084 -82.196,12.084 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-81.808,11.834 -82.308,12.084 -81.808,12.334 "/>
+<text x="-73.800" y="11.800"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+lost connectivity</text>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-114.000,-3.000 -82.760,-3.000 -82.160,-2.400 -82.160,2.133 -114.000,2.133 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-114.000,-3.000 -82.760,-3.000 -82.160,-2.400 -82.160,2.133 -114.000,2.133 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.050"  points="-82.760,-3.000 -82.760,-2.400 -82.160,-2.400 "/>
+<text x="-113.650" y="-1.825"  fill="#000000" text-anchor="start" font-size="0.71" font-family="monospace" font-style="normal" font-weight="400">
+* &quot;checking&quot;     occurs if ANY component has received a candidate and can start checking</text>
+<text x="-113.650" y="-1.119"  fill="#000000" text-anchor="start" font-size="0.71" font-family="monospace" font-style="normal" font-weight="400">
+* &quot;connected&quot;    occurs if ALL components have established a working connection</text>
+<text x="-113.650" y="-0.414"  fill="#000000" text-anchor="start" font-size="0.71" font-family="monospace" font-style="normal" font-weight="400">
+* &quot;completed&quot;    occurs if ALL components have finalized the running of their ICE processes</text>
+<text x="-113.650" y="0.292"  fill="#000000" text-anchor="start" font-size="0.71" font-family="monospace" font-style="normal" font-weight="400">
+* &quot;failed&quot;       occurs if ANY component has given up trying to connect</text>
+<text x="-113.650" y="0.997"  fill="#000000" text-anchor="start" font-size="0.71" font-family="monospace" font-style="normal" font-weight="400">
+* &quot;disconnected&quot; occurs if ANY component has failed liveness checks</text>
+<text x="-113.650" y="1.703"  fill="#000000" text-anchor="start" font-size="0.71" font-family="monospace" font-style="normal" font-weight="400">
+* &quot;closed&quot;       occurs only if PeerConnection.close() has been called.</text>
+<rect x="-29.000" y="60.000" width="12.435" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-29.000" y="60.000" width="12.435" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-22.782" y="60.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCSdpError</text>
+<rect x="-29.000" y="61.400" width="12.435" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-29.000" y="61.400" width="12.435" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-28.850" y="62.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++sdpLineNumber: long (readonly)</text>
+<rect x="-29.000" y="62.400" width="12.435" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-29.000" y="62.400" width="12.435" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-25.244" y="55.000" width="4.922" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-25.244" y="55.000" width="4.922" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-22.782" y="55.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+DOMError</text>
+<rect x="-25.244" y="56.400" width="4.922" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-25.244" y="56.400" width="4.922" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-25.244" y="56.800" width="4.922" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-25.244" y="56.800" width="4.922" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-22.782,58.162 -22.782,58.100 -22.782,59.900 -22.782,59.950 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-22.383,58.162 -22.782,57.362 -23.182,58.162 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-22.383,58.162 -22.782,57.362 -23.182,58.162 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-102.309,33.601 -110.050,33.601 -110.050,38.788 -109.000,38.788 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-101.050,33.601 -101.750,33.841 -102.450,33.601 -101.750,33.361 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-101.050,33.601 -101.750,33.841 -102.450,33.601 -101.750,33.361 "/>
+<rect x="-0.500" y="79.000" width="14.757" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-0.500" y="79.000" width="14.757" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="6.879" y="79.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCPeerConnectionIceEventInit</text>
+<rect x="-0.500" y="80.400" width="14.757" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-0.500" y="80.400" width="14.757" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-0.350" y="81.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++candidate: RTCIceCandidate</text>
+<rect x="-0.500" y="81.400" width="14.757" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-0.500" y="81.400" width="14.757" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-1.000" y="69.000" width="16.670" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-1.000" y="69.000" width="16.670" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="7.335" y="69.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RTCPeerConnectionIceEvent</text>
+<rect x="-1.000" y="70.400" width="16.670" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-1.000" y="70.400" width="16.670" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-0.850" y="71.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++candidate: RTCIceCandidate (readonly)</text>
+<rect x="-1.000" y="71.400" width="16.670" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-1.000" y="71.400" width="16.670" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-0.850" y="72.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++Constructor(type:DOMString,eventInitDict)</text>
+<rect x="4.547" y="74.000" width="4.590" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="4.547" y="74.000" width="4.590" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="6.842" y="74.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+EventInit</text>
+<rect x="4.547" y="75.400" width="4.590" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="4.547" y="75.400" width="4.590" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="4.547" y="75.800" width="4.590" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="4.547" y="75.800" width="4.590" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="6.842,77.162 6.842,78.000 6.879,78.000 6.879,78.950 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="7.242,77.162 6.842,76.362 6.442,77.162 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="7.242,77.162 6.842,76.362 6.442,77.162 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-58.646,70.888 -29.852,70.888 -29.852,80.900 -0.500,80.900 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-59.905,70.888 -59.205,70.648 -58.505,70.888 -59.205,71.128 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-59.905,70.888 -59.205,70.648 -58.505,70.888 -59.205,71.128 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-1.759,79.700 -2.250,79.700 -2.250,71.900 -1.000,71.900 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-0.500,79.700 -1.200,79.940 -1.900,79.700 -1.200,79.460 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-0.500,79.700 -1.200,79.940 -1.900,79.700 -1.200,79.460 "/>
+<text x="-2.150" y="75.600"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+eventInitDict</text>
+<rect x="5.803" y="64.000" width="3.065" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="5.803" y="64.000" width="3.065" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="7.335" y="64.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+Event</text>
+<rect x="5.803" y="65.400" width="3.065" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="5.803" y="65.400" width="3.065" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="5.803" y="65.800" width="3.065" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="5.803" y="65.800" width="3.065" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="7.335,67.162 7.335,67.100 7.335,68.900 7.335,68.950 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="7.735,67.162 7.335,66.362 6.935,67.162 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="7.735,67.162 7.335,66.362 6.935,67.162 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-58.646,70.888 -30.102,70.888 -30.102,70.900 -1.000,70.900 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-59.905,70.888 -59.205,70.648 -58.505,70.888 -59.205,71.128 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-59.905,70.888 -59.205,70.648 -58.505,70.888 -59.205,71.128 "/>
+<rect x="2.000" y="26.000" width="4.985" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="26.000" width="4.985" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="4.492" y="28.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+connecting</text>
+<text x="4.492" y="27.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;Event&gt;&gt;</text>
+<line x1="2.721" y1="28.297" x2="6.264" y2="28.297" stroke="#000000" stroke-width="0.050" />
+<rect x="2.000" y="38.000" width="9.225" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="38.000" width="9.225" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="6.612" y="40.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+addstream</text>
+<text x="6.612" y="39.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;MediaStreamEvent&gt;&gt;</text>
+<line x1="4.889" y1="40.297" x2="8.336" y2="40.297" stroke="#000000" stroke-width="0.050" />
+<rect x="2.000" y="41.000" width="9.225" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="41.000" width="9.225" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="6.612" y="43.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+removestream</text>
+<text x="6.612" y="42.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;MediaStreamEvent&gt;&gt;</text>
+<line x1="4.276" y1="43.297" x2="8.949" y2="43.297" stroke="#000000" stroke-width="0.050" />
+<rect x="2.000" y="29.000" width="7.050" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="29.000" width="7.050" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="5.525" y="31.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+negotiationneeded</text>
+<text x="5.525" y="30.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;Event&gt;&gt;</text>
+<line x1="2.500" y1="31.297" x2="8.550" y2="31.297" stroke="#000000" stroke-width="0.050" />
+<rect x="2.000" y="35.000" width="7.860" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="35.000" width="7.860" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="5.930" y="37.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+signalingstatechange</text>
+<text x="5.930" y="36.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;Event&gt;&gt;</text>
+<line x1="2.500" y1="37.297" x2="9.360" y2="37.297" stroke="#000000" stroke-width="0.050" />
+<rect x="2.000" y="44.000" width="9.430" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="44.000" width="9.430" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="6.715" y="46.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+iceconnectionstatechange</text>
+<text x="6.715" y="45.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;Event&gt;&gt;</text>
+<line x1="2.500" y1="46.297" x2="10.930" y2="46.297" stroke="#000000" stroke-width="0.050" />
+<rect x="2.000" y="32.000" width="12.157" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="32.000" width="12.157" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="8.079" y="34.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+icecandidate</text>
+<text x="8.079" y="33.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;RTCPeerConnectionIceEvent&gt;&gt;</text>
+<line x1="6.026" y1="34.297" x2="10.131" y2="34.297" stroke="#000000" stroke-width="0.050" />
+<rect x="2.000" y="47.000" width="10.338" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="47.000" width="10.338" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="7.169" y="49.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+datachannel</text>
+<text x="7.169" y="48.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;RTCDataChannelEvent&gt;&gt;</text>
+<line x1="5.181" y1="49.297" x2="9.156" y2="49.297" stroke="#000000" stroke-width="0.050" />
+<rect x="2.000" y="50.000" width="8.637" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.000" y="50.000" width="8.637" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="6.319" y="52.145"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+identityresult</text>
+<text x="6.319" y="51.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;&lt;RTCIdentityEvent&gt;&gt;</text>
+<line x1="4.194" y1="52.297" x2="8.444" y2="52.297" stroke="#000000" stroke-width="0.050" />
+<line x1="-7.010" y1="35.900" x2="2.000" y2="30.425" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-6.456,35.271 -7.010,35.900 -7.010,35.900 "/>
+<line x1="-7.010" y1="36.700" x2="2.000" y2="33.425" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-6.344,36.192 -7.010,36.700 -7.010,36.700 "/>
+<line x1="-7.010" y1="37.500" x2="2.000" y2="36.425" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-6.245,37.157 -7.010,37.500 -7.010,37.500 "/>
+<line x1="-7.010" y1="38.300" x2="2.000" y2="39.425" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-6.185,38.151 -7.010,38.300 -7.010,38.300 "/>
+<line x1="-7.010" y1="39.100" x2="2.000" y2="42.425" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-6.173,39.142 -7.010,39.100 -7.010,39.100 "/>
+<line x1="-7.010" y1="39.900" x2="2.000" y2="45.425" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="-6.197,40.105 -7.010,39.900 -7.010,39.900 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40" points="16.582,69.700 17.520,69.700 17.520,33.425 14.157,33.425 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="16.582,69.300 15.782,69.700 16.582,70.100 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="16.582,69.300 15.782,69.700 16.582,70.100 "/>
+<rect x="22.000" y="79.000" width="10.582" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.000" y="79.000" width="10.582" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="27.291" y="79.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+MediaStreamEventInit</text>
+<rect x="22.000" y="80.400" width="10.582" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.000" y="80.400" width="10.582" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.150" y="81.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++stream: MediaStream</text>
+<rect x="22.000" y="81.400" width="10.582" height="0.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.000" y="81.400" width="10.582" height="0.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="6.842,77.162 6.842,78.000 27.291,78.000 27.291,78.950 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="7.242,77.162 6.842,76.362 6.442,77.162 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="7.242,77.162 6.842,76.362 6.442,77.162 "/>
+<rect x="22.000" y="69.000" width="16.670" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.000" y="69.000" width="16.670" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="30.335" y="69.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+MediaStreamEvent</text>
+<rect x="22.000" y="70.400" width="16.670" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.000" y="70.400" width="16.670" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.150" y="71.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++stream: MediaStream? (readonly)</text>
+<rect x="22.000" y="71.400" width="16.670" height="1.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.000" y="71.400" width="16.670" height="1.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.150" y="72.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
++Constructor(type:DOMString,eventInitDict)</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="7.335,67.162 7.335,68.025 30.335,68.025 30.335,69.000 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="7.735,67.162 7.335,66.362 6.935,67.162 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="7.735,67.162 7.335,66.362 6.935,67.162 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="20.741,79.700 20.250,79.700 20.250,71.900 22.000,71.900 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="22.000,79.700 21.300,79.940 20.600,79.700 21.300,79.460 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="22.000,79.700 21.300,79.940 20.600,79.700 21.300,79.460 "/>
+<text x="20.350" y="75.600"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+MediaStreamEventInit</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="41.691,72.100 40.460,72.100 40.460,70.900 38.670,70.900 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="42.950,72.100 42.250,72.340 41.550,72.100 42.250,71.860 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="42.950,72.100 42.250,72.340 41.550,72.100 42.250,71.860 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40" points="39.582,69.700 40.520,69.700 40.520,39.425 11.225,39.425 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="39.582,69.300 38.782,69.700 39.582,70.100 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="39.582,69.300 38.782,69.700 39.582,70.100 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40" points="39.582,69.700 40.520,69.700 40.520,42.425 11.225,42.425 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="39.582,69.300 38.782,69.700 39.582,70.100 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="39.582,69.300 38.782,69.700 39.582,70.100 "/>
+<rect x="43.000" y="71.000" width="28.705" height="2.200" fill="#FFA500" stroke="none" stroke-width="0"/>
+<rect x="43.000" y="71.000" width="28.705" height="2.200" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="43.000" y="70.100" width="1.500" height="0.900" fill="#FFA500" stroke="none" stroke-width="0"/>
+<rect x="43.000" y="70.100" width="1.500" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="43.300" y="72.695"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+http://pchangbin.github.io/WebRTC/diagram/MediaCaptureAndStreams-base.svg</text>
+<text x="43.300" y="71.895"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;MediaStream&gt;&gt;</text>
+</svg>
