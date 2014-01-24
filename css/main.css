@@ -15,7 +15,7 @@ border-top: 1px solid #999;
 padding: 1em 0 0 0;
 }
 
-div#links a {
+div.links a {
 display: block;
 line-height: 1.3em;
 margin: 0 0 1.5em 0;
@@ -23,7 +23,7 @@ margin: 0 0 1.5em 0;
 
 @media screen and (min-width: 1000px) {
 /* hack! to detect non-touch devices */
-  div#links a {
+  div.links a {
 		line-height: 0.8em;
   }
 }
@@ -61,7 +61,7 @@ max-width: 40em;
 padding: 1em 1.5em 1.3em 1.5em;
 }
 
-div#links {
+div.links {
 	padding: 0.5em 0 0 0;
 }
 
