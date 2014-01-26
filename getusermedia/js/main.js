@@ -2,6 +2,7 @@ navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia 
 
 var constraints = {audio: false, video: true};
 var video = document.querySelector("video");
+var result= document.querySelector("#result");
 
 function successCallback(stream) {
   window.stream = stream; // stream available to console
@@ -11,10 +12,12 @@ function successCallback(stream) {
     video.src = stream;
   }
   video.play();
+  result.innerHTML=" - OK";
 }
 
 function errorCallback(error){
   console.log("navigator.getUserMedia error: ", error);
+  result.innerHTML=" - ERROR! ("+error+")";
 }
 
 navigator.getUserMedia(constraints, successCallback, errorCallback);
