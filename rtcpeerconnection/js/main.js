@@ -1,12 +1,15 @@
+"use strict"
 
 var localStream, localPeerConnection, remotePeerConnection;
 
-var localVideo = document.getElementById("localVideo");
-var remoteVideo = document.getElementById("remoteVideo");
+var localVideo   = document.getElementById("localVideo")
+  , remoteVideo  = document.getElementById("remoteVideo")
+  , startButton  = document.getElementById("startButton")
+  , callButton   = document.getElementById("callButton")
+  , hangupButton = document.getElementById("hangupButton")
+  , result       = document.getElementById("result")
+  ;
 
-var startButton = document.getElementById("startButton");
-var callButton = document.getElementById("callButton");
-var hangupButton = document.getElementById("hangupButton");
 startButton.disabled = false;
 callButton.disabled = true;
 hangupButton.disabled = true;
@@ -22,6 +25,7 @@ var total = '';
 function trace(text) {
   total += text;
   console.log((performance.now() / 1000).toFixed(3) + ": " + text);
+  result.innerHTML=" - ("+text+")";
 }
 
 function gotStream(stream){
@@ -67,16 +71,16 @@ function call() {
 
   localPeerConnection.addStream(localStream);
   trace("Added localStream to localPeerConnection");
-  localPeerConnection.createOffer(gotLocalDescription, e =>
-      trace("[createOffer] " + e.name + " --> " + e.message) );
+  localPeerConnection.createOffer(gotLocalDescription, function (e){
+      trace("[createOffer] " + e.name + " --> " + e.message);});
 }
 
 function gotLocalDescription(description){
   localPeerConnection.setLocalDescription(description);
   trace("Offer from localPeerConnection: \n" + description.sdp);
   remotePeerConnection.setRemoteDescription(description);
-  remotePeerConnection.createAnswer(gotRemoteDescription, e =>
-      trace("[createAnswer] " + e.name + " --> " + e.message) );
+  remotePeerConnection.createAnswer(gotRemoteDescription, function (e){
+      trace("[createAnswer] " + e.name + " --> " + e.message);});
 }
 
 function gotRemoteDescription(description){
