@@ -1,8 +1,13 @@
-var sendChannel, receiveChannel;
+"use strict"
 
-var startButton = document.getElementById("startButton");
-var sendButton = document.getElementById("sendButton");
-var closeButton = document.getElementById("closeButton");
+var sendChannel
+  , receiveChannel
+  , startButton = document.getElementById("startButton")
+  , sendButton = document.getElementById("sendButton")
+  , closeButton = document.getElementById("closeButton")
+  , result = document.getElementById("result")
+  ;
+
 startButton.disabled = false;
 sendButton.disabled = true;
 closeButton.disabled = true;
@@ -12,12 +17,14 @@ closeButton.onclick = closeDataChannels;
 
 function trace(text) {
   console.log((performance.now() / 1000).toFixed(3) + ": " + text);
+  result.innerHTML = "-- ("+text+")";
 }
 
 function RTCError(e)
 {
   trace("[RTCError] " + e.name + " --> " + e.message );
 }
+
 
 var RTCPeerConnection = (window.mozRTCPeerConnection || window.webkitRTCPeerConnection);
 function createConnection() {
