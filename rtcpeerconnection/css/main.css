@@ -79,6 +79,17 @@ h2 {
   margin: 1.8em 0 0.6em 0;
 }
 
+header h1, header h2 {
+  display: inline;
+  border-bottom: none;
+}
+
+header {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 0.8em 0;
+  padding: 0 0 0.4em 0;
+}
+
 html {
   /* avoid annoying page width change
   when moving from the home page */
