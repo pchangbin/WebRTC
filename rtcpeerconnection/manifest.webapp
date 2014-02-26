@@ -8,5 +8,9 @@
   "developer": {
     "name": "Changbin Park",
     "url": "http://pchangbin.github.io/WebRTC"
+  },
+  "permissions": {
+    "audio-capture": {},
+    "video-capture": {}
   }
 }
