@@ -1,12 +1,16 @@
 {
-	"name": "GetUserMedia with contrainsts",
-	"description": "WebRTC test - GetUserMedia with contrainsts",
-	"icons": {
-		"128": "/WebRTC/getusermedia/constraints/icon.png"
-	},
-	"launch_path": "/WebRTC/getusermedia/constraints/index.html",
-	"developer" : {
-		"name" : "Changbin Park",
-		"url" : "http://pchangbin.github.io/WebRTC"
-	}
+  "name": "GetUserMedia with contrainsts",
+  "description": "WebRTC test - GetUserMedia with contrainsts",
+  "icons": {
+    "128": "/icon.png"
+  },
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Changbin Park",
+    "url": "http://pchangbin.github.io/WebRTC"
+  },
+  "permissions": {
+    "audio-capture": {},
+    "video-capture": {}
+  }
 }

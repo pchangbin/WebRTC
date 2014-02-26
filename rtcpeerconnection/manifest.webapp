@@ -1,12 +1,16 @@
 {
-	"name": "RTCPeerConnection",
-	"description": "WebRTC test - RTCPeerConnection",
-	"icons": {
-		"128": "/WebRTC/rtcpeerconnection/icon.png"
-	},
-	"launch_path": "/WebRTC/rtcpeerconnection/index.html",
-	"developer" : {
-		"name" : "Changbin Park",
-		"url" : "https://pchangbin.github.com/WebRTC"
-	}
+  "name": "RTCPeerConnection",
+  "description": "WebRTC test - RTCPeerConnection",
+  "icons": {
+    "128": "/icon.png"
+  },
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Changbin Park",
+    "url": "http://pchangbin.github.io/WebRTC"
+  },
+  "permissions": {
+    "audio-capture": {},
+    "video-capture": {}
+  }
 }
