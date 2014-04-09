@@ -18,6 +18,9 @@
           width: 49%;
         }
       }
+      .fps {
+        color: white;
+      }
     </style>
   </head>
   <body>
@@ -29,6 +32,8 @@
       <video id="localVideo" autoplay width="45%"></video>
       <video id="remoteVideo" autoplay width="45%"></video>
 
+      <div class="fps">Local  : <span id="localFPS">0</span> FPS</div>
+      <div class="fps">Remote  : <span id="remoteFPS">0</span> FPS</div>
       <div>
         <button id="startButton">Start</button>
         <button id="callButton">Call</button>
