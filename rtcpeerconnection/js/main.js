@@ -33,6 +33,8 @@ function gotStream(stream){
   localVideo.src = URL.createObjectURL(stream);
   localStream = stream;
   callButton.disabled = false;
+
+  indicateLocalFPS("localVideo", "localFPS");
 }
 
 function start() {
@@ -87,6 +89,7 @@ function gotRemoteDescription(description){
   remotePeerConnection.setLocalDescription(description);
   trace("Answer from remotePeerConnection: \n" + description.sdp);
   localPeerConnection.setRemoteDescription(description);
+  indicateRemoteFPS("remoteVideo", "remoteFPS");
 }
 
 function hangup() {
@@ -115,5 +118,37 @@ function gotRemoteIceCandidate(event){
   if (event.candidate) {
     localPeerConnection.addIceCandidate(new RTCIceCandidate(event.candidate));
     trace("Remote ICE candidate: \n " + event.candidate.candidate);
+  }
+}
+
+function indicateLocalFPS(aVideoId, aSpanId)
+{
+  var videoElem = document.getElementById(aVideoId);
+  var spanElem = document.getElementById(aSpanId);
+  var lastFrame = 0;
+
+  updateFPS();
+  function updateFPS() {
+    var fps = 0;
+    if ( lastFrame ) fps = videoElem.mozPaintedFrames - lastFrame;
+    lastFrame = videoElem.mozPaintedFrames || 0;
+    spanElem.innerHTML = fps;
+    window.setTimeout(updateFPS, 1000);
+  }
+}
+
+function indicateRemoteFPS(aVideoId, aSpanId)
+{
+  var videoElem = document.getElementById(aVideoId);
+  var spanElem = document.getElementById(aSpanId);
+  var lastFrame = 0;
+
+  updateFPS();
+  function updateFPS() {
+    var fps = 0;
+    if ( lastFrame ) fps = videoElem.mozPaintedFrames - lastFrame;
+    lastFrame = videoElem.mozPaintedFrames || 0;
+    spanElem.innerHTML = fps;
+    window.setTimeout(updateFPS, 1000);
   }
 }
