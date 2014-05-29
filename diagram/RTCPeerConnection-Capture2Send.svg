@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="93.670cm" height="88.100cm" viewBox="-17.620 7.950 76.050 96.050"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="54.000" y="91.000" width="22.000" height="4.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="54.000" y="91.000" width="22.000" height="4.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="54.000" y="89.200" width="4.435" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="54.000" y="89.200" width="4.435" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="54.100" y="89.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;thread&gt;&gt;</text>
+<text x="54.100" y="90.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Main thread</text>
+<rect x="7.000" y="91.000" width="35.000" height="4.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="7.000" y="91.000" width="35.000" height="4.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="7.000" y="89.200" width="4.435" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="7.000" y="89.200" width="4.435" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="7.100" y="89.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;thread&gt;&gt;</text>
+<text x="7.100" y="90.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Main thread</text>
+<rect x="30.000" y="92.000" width="6.105" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="30.000" y="92.000" width="6.105" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="33.053" y="93.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+UDPSocketChild</text>
+<line x1="30.500" y1="93.248" x2="35.605" y2="93.248" stroke="#000000" stroke-width="0.050" />
+<text x="50.000" y="12.000"  fill="#000000" text-anchor="start" font-size="3.53" font-family="sans" font-style="normal" font-weight="400">
+B2G Process</text>
+<text x="16.370" y="12.000"  fill="#000000" text-anchor="start" font-size="3.53" font-family="sans" font-style="normal" font-weight="400">
+Content Process</text>
+<rect x="43.400" y="8.000" width="4.000" height="88.000" fill="#0000FF" stroke="none" stroke-width="0"/>
+<rect x="43.400" y="8.000" width="4.000" height="88.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="55.000" y="92.000" width="6.538" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="55.000" y="92.000" width="6.538" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="58.269" y="93.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+UDPSocketParent</text>
+<line x1="55.500" y1="93.248" x2="61.038" y2="93.248" stroke="#000000" stroke-width="0.050" />
+<line x1="54.950" y1="92.900" x2="36.131" y2="92.900" stroke="#FF0000" stroke-width="0.100" />
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="54.150,93.150 54.950,92.900 54.950,92.900 "/>
+<text x="45.500" y="93.500"  fill="#FF0000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendDataWithAddress()/RecvDataWithAddress()</text>
+<rect x="-17.000" y="15.000" width="52.000" height="13.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-17.000" y="15.000" width="52.000" height="13.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-17.000" y="13.200" width="7.130" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-17.000" y="13.200" width="7.130" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-16.900" y="13.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;thread&gt;&gt;</text>
+<text x="-16.900" y="14.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Android IPC thread</text>
+<rect x="-14.000" y="17.000" width="6.710" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-14.000" y="17.000" width="6.710" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-10.645" y="18.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+GonkBufferQueue</text>
+<line x1="-13.500" y1="18.247" x2="-7.790" y2="18.247" stroke="#000000" stroke-width="0.050" />
+<line x1="-14.707" y1="16.529" x2="-17.000" y2="15.000" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-14.846,16.737 -14.042,16.972 -14.569,16.320 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-14.846,16.737 -14.042,16.972 -14.569,16.320 "/>
+<text x="-13.437" y="15.925"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+onTransact()</text>
+<rect x="1.414" y="17.000" width="14.732" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="1.414" y="17.000" width="14.732" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="8.780" y="18.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+GonkBufferQueue::ProxyConsumerListener</text>
+<line x1="1.914" y1="18.247" x2="15.647" y2="18.247" stroke="#000000" stroke-width="0.050" />
+<line x1="0.514" y1="17.900" x2="-7.245" y2="17.900" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="0.514,18.150 1.314,17.900 0.514,17.650 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="0.514,18.150 1.314,17.900 0.514,17.650 "/>
+<text x="-3.000" y="18.600"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+onFrameAvailable()</text>
+<rect x="25.504" y="17.000" width="7.260" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.504" y="17.000" width="7.260" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="29.134" y="18.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+GonkNativeWindow</text>
+<line x1="26.004" y1="18.247" x2="32.264" y2="18.247" stroke="#000000" stroke-width="0.050" />
+<line x1="24.604" y1="17.900" x2="16.196" y2="17.900" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.604,18.150 25.404,17.900 24.604,17.650 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.604,18.150 25.404,17.900 24.604,17.650 "/>
+<text x="20.600" y="18.800"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+onFrameAvailable()</text>
+<rect x="25.000" y="21.703" width="8.267" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.000" y="21.703" width="8.267" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="29.134" y="22.798"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+GonkCameraHardware</text>
+<line x1="25.500" y1="22.951" x2="32.767" y2="22.951" stroke="#000000" stroke-width="0.050" />
+<line x1="29.134" y1="20.805" x2="29.134" y2="18.848" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="28.884,20.805 29.134,21.605 29.384,20.805 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="28.884,20.805 29.134,21.605 29.384,20.805 "/>
+<text x="31.700" y="20.200"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+OnNewFrame()</text>
+<rect x="7.406" y="21.703" width="8.225" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="7.406" y="21.703" width="8.225" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="11.519" y="22.798"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+nsGonkCameraControl</text>
+<line x1="7.906" y1="22.951" x2="15.131" y2="22.951" stroke="#000000" stroke-width="0.050" />
+<line x1="16.515" y1="22.603" x2="24.951" y2="22.603" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="16.515,22.353 15.715,22.603 16.515,22.853 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="16.515,22.353 15.715,22.603 16.515,22.853 "/>
+<text x="20.800" y="23.200"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+OnNewPreviewFrame()</text>
+<rect x="-14.000" y="21.703" width="11.710" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-14.000" y="21.703" width="11.710" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-8.145" y="22.798"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+MediaEngineWebRTCVideoSource</text>
+<line x1="-13.500" y1="22.951" x2="-2.790" y2="22.951" stroke="#000000" stroke-width="0.050" />
+<line x1="-1.390" y1="22.603" x2="7.356" y2="22.603" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-1.390,22.353 -2.190,22.603 -1.390,22.853 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-1.390,22.353 -2.190,22.603 -1.390,22.853 "/>
+<text x="3.000" y="23.200"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+OnNewPreviewFrame()</text>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-16.500,26.000 -3.880,26.000 -3.280,26.600 -3.280,27.700 -16.500,27.700 "/>
+<polygon fill="none" stroke="#0000FF" stroke-width="0.100"  points="-16.500,26.000 -3.880,26.000 -3.280,26.600 -3.280,27.700 -16.500,27.700 "/>
+<polyline fill="none" stroke="#0000FF" stroke-width="0.050"  points="-3.880,26.000 -3.880,26.600 -3.280,26.600 "/>
+<text x="-16.150" y="27.245"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Set preview image data to mImage</text>
+<line x1="-10.995" y1="25.950" x2="-14.000" y2="23.503" stroke="#0000FF" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<rect x="-17.024" y="30.801" width="59.000" height="18.594" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-17.024" y="30.801" width="59.000" height="18.594" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-17.024" y="29.001" width="20.605" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-17.024" y="29.001" width="20.605" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-16.924" y="29.701"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;thread&gt;&gt;</text>
+<text x="-16.924" y="30.501"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+MediaStreamGraph -- MediaStreamGraphImpl::RunThread()</text>
+<rect x="-12.024" y="34.394" width="8.600" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-12.024" y="34.394" width="8.600" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-7.724" y="35.489"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+MediaStreamGraphImpl</text>
+<line x1="-11.524" y1="35.642" x2="-3.924" y2="35.642" stroke="#000000" stroke-width="0.050" />
+<line x1="-10.453" y1="33.975" x2="-17.024" y2="30.801" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-10.562,34.200 -9.733,34.323 -10.344,33.750 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-10.562,34.200 -9.733,34.323 -10.344,33.750 "/>
+<text x="-11.500" y="32.500"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+RunThread()</text>
+<rect x="3.719" y="34.394" width="15.055" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="3.719" y="34.394" width="15.055" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="11.247" y="35.489"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+GetUserMediaCallbackMediaStreamListener</text>
+<line x1="4.219" y1="35.642" x2="18.274" y2="35.642" stroke="#000000" stroke-width="0.050" />
+<line x1="2.819" y1="35.294" x2="-3.374" y2="35.294" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="2.819,35.544 3.619,35.294 2.819,35.044 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="2.819,35.544 3.619,35.294 2.819,35.044 "/>
+<text x="-0.037" y="36.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+NotifyPull()</text>
+<text x="-7.290" y="16.047"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+  queueBuffer()</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M -14.000,22.603 A 0.601,0.601 0 1,0 -14.408,23.654 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-14.246,24.055 -14.037,23.536 -14.577,23.681 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-14.246,24.055 -14.037,23.536 -14.577,23.681 "/>
+<text x="-14.000" y="24.098"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+  RotateImage()</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M -7.290,17.000 C -6.800,15.800 -5.600,16.400 -6.879,17.535 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-7.045,17.348 -7.253,17.867 -6.713,17.722 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-7.045,17.348 -7.253,17.867 -6.713,17.722 "/>
+<rect x="25.866" y="34.394" width="11.710" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.866" y="34.394" width="11.710" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="31.721" y="35.489"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+MediaEngineWebRTCVideoSource</text>
+<line x1="26.366" y1="35.642" x2="37.076" y2="35.642" stroke="#000000" stroke-width="0.050" />
+<line x1="-5.161" y1="23.553" x2="28.737" y2="34.344" stroke="#FF0000" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<line x1="24.967" y1="35.294" x2="18.815" y2="35.294" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.967,35.544 25.767,35.294 24.967,35.044 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.967,35.544 25.767,35.294 24.967,35.044 "/>
+<text x="21.996" y="36.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+NotifyPull()</text>
+<rect x="28.001" y="39.352" width="7.440" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="28.001" y="39.352" width="7.440" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="31.721" y="40.447"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SourceMediaStream</text>
+<line x1="28.501" y1="40.599" x2="34.941" y2="40.599" stroke="#000000" stroke-width="0.050" />
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="27.976,31.394 40.596,31.394 41.196,31.994 41.196,33.094 27.976,33.094 "/>
+<polygon fill="none" stroke="#0000FF" stroke-width="0.100"  points="27.976,31.394 40.596,31.394 41.196,31.994 41.196,33.094 27.976,33.094 "/>
+<polyline fill="none" stroke="#0000FF" stroke-width="0.050"  points="40.596,31.394 40.596,31.994 41.196,31.994 "/>
+<text x="28.326" y="32.639"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Fetch raw image data from mImage</text>
+<line x1="33.741" y1="33.144" x2="32.612" y2="34.345" stroke="#0000FF" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<line x1="31.721" y1="38.452" x2="31.721" y2="36.244" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="31.471,38.452 31.721,39.252 31.971,38.452 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="31.471,38.452 31.721,39.252 31.971,38.452 "/>
+<text x="34.500" y="37.600"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+AppendToTrack()</text>
+<rect x="4.444" y="39.352" width="13.678" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="4.444" y="39.352" width="13.678" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="11.283" y="40.447"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+MediaPipelineTransmit::PipelineListener</text>
+<line x1="4.944" y1="40.599" x2="17.621" y2="40.599" stroke="#000000" stroke-width="0.050" />
+<line x1="19.022" y1="40.252" x2="27.951" y2="40.252" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="19.022,40.002 18.222,40.252 19.022,40.502 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="19.022,40.002 18.222,40.252 19.022,40.502 "/>
+<text x="23.200" y="41.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+NotifyRealtimeData()</text>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="17.476,41.894 30.866,41.894 31.466,42.494 31.466,43.594 17.476,43.594 "/>
+<polygon fill="none" stroke="#0000FF" stroke-width="0.100"  points="17.476,41.894 30.866,41.894 31.466,42.494 31.466,43.594 17.476,43.594 "/>
+<polyline fill="none" stroke="#0000FF" stroke-width="0.050"  points="30.866,41.894 30.866,42.494 31.466,42.494 "/>
+<text x="17.826" y="43.139"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Called only when peer is connected</text>
+<line x1="25.743" y1="41.846" x2="28.001" y2="40.252" stroke="#0000FF" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 28.001,39.352 C 27.976,38.436 25.976,38.436 27.592,39.885 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="27.425,40.071 27.964,40.218 27.759,39.698 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="27.425,40.071 27.964,40.218 27.759,39.698 "/>
+<text x="28.001" y="38.399"  fill="#000000" text-anchor="end" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+NotifyDirectConsumers()</text>
+<rect x="-11.495" y="39.352" width="7.542" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-11.495" y="39.352" width="7.542" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-7.724" y="40.447"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+WebrtcVideoConduit</text>
+<line x1="-10.995" y1="40.599" x2="-4.453" y2="40.599" stroke="#000000" stroke-width="0.050" />
+<line x1="-3.054" y1="40.252" x2="4.394" y2="40.252" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-3.054,40.002 -3.854,40.252 -3.054,40.502 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-3.054,40.002 -3.854,40.252 -3.054,40.502 "/>
+<text x="0.700" y="41.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendVideoFrame()</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 4.444,39.352 C 4.419,38.436 2.419,38.436 4.034,39.885 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="3.868,40.071 4.407,40.218 4.201,39.698 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="3.868,40.071 4.407,40.218 4.201,39.698 "/>
+<text x="4.444" y="39.199"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+NewData()</text>
+<rect x="-11.093" y="45.143" width="6.737" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-11.093" y="45.143" width="6.737" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-7.724" y="46.238"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+VideoCaptureImpl</text>
+<line x1="-10.593" y1="46.391" x2="-4.855" y2="46.391" stroke="#000000" stroke-width="0.050" />
+<line x1="-7.724" y1="44.266" x2="-7.724" y2="41.179" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-7.974,44.266 -7.724,45.066 -7.474,44.266 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-7.974,44.266 -7.724,45.066 -7.474,44.266 "/>
+<text x="-4.700" y="43.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+IncomingFrame()</text>
+<rect x="9.653" y="45.143" width="4.812" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="9.653" y="45.143" width="4.812" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="12.059" y="46.238"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ViECapturer</text>
+<line x1="10.153" y1="46.391" x2="13.965" y2="46.391" stroke="#000000" stroke-width="0.050" />
+<line x1="8.752" y1="46.043" x2="-4.314" y2="46.043" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="8.752,46.293 9.552,46.043 8.752,45.793 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="8.752,46.293 9.552,46.043 8.752,45.793 "/>
+<text x="2.300" y="46.600"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+OnIncomingCapturedFrame()</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M -4.355,45.143 C -4.824,43.994 -2.224,43.994 -3.959,45.662 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-4.132,45.482 -4.319,46.009 -3.785,45.842 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-4.132,45.482 -4.319,46.009 -3.785,45.842 "/>
+<text x="-4.355" y="44.191"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+DeliverCapturedFrame()</text>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="16.000,46.000 30.545,46.000 31.145,46.600 31.145,48.500 16.000,48.500 "/>
+<polygon fill="none" stroke="#0000FF" stroke-width="0.100"  points="16.000,46.000 30.545,46.000 31.145,46.600 31.145,48.500 16.000,48.500 "/>
+<polyline fill="none" stroke="#0000FF" stroke-width="0.050"  points="30.545,46.000 30.545,46.600 31.145,46.600 "/>
+<text x="16.350" y="47.245"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Save the frame with &quot;captured_frame_&quot;</text>
+<text x="16.350" y="48.045"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+and set &quot;capture_event_&quot;</text>
+<line x1="15.961" y1="46.452" x2="14.513" y2="46.301" stroke="#0000FF" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<rect x="-17.000" y="52.000" width="59.000" height="21.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-17.000" y="52.000" width="59.000" height="21.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-17.000" y="50.200" width="20.220" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-17.000" y="50.200" width="20.220" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-16.900" y="50.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;thread&gt;&gt;</text>
+<text x="-16.900" y="51.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+ViECaptureThread -- ViECapturer::ViECaptureProcess()</text>
+<text x="45.400" y="52.782"  fill="#FFFFFF" text-anchor="middle" font-size="2.82" font-family="sans" font-style="normal" font-weight="400">
+IPC</text>
+<rect x="-4.813" y="57.500" width="4.812" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-4.813" y="57.500" width="4.812" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-2.407" y="58.595"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ViECapturer</text>
+<line x1="-4.313" y1="58.748" x2="-0.501" y2="58.748" stroke="#000000" stroke-width="0.050" />
+<line x1="-5.588" y1="57.150" x2="-17.000" y2="52.000" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-5.691,57.378 -4.859,57.480 -5.485,56.923 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-5.691,57.378 -4.859,57.480 -5.485,56.923 "/>
+<text x="-7.000" y="55.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ViECaptureProcess()</text>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="-1.637,52.300 6.748,52.300 7.348,52.900 7.348,54.800 -1.637,54.800 "/>
+<polygon fill="none" stroke="#0000FF" stroke-width="0.100"  points="-1.637,52.300 6.748,52.300 7.348,52.900 7.348,54.800 -1.637,54.800 "/>
+<polyline fill="none" stroke="#0000FF" stroke-width="0.050"  points="6.748,52.300 6.748,52.900 7.348,52.900 "/>
+<text x="-1.287" y="53.545"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Poll &apos;capture_event_&apos;</text>
+<text x="-1.287" y="54.345"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+for every 100ms</text>
+<line x1="0.330" y1="54.851" x2="-4.813" y2="57.500" stroke="#0000FF" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="9.363,52.300 20.443,52.300 21.043,52.900 21.043,54.800 9.363,54.800 "/>
+<polygon fill="none" stroke="#0000FF" stroke-width="0.100"  points="9.363,52.300 20.443,52.300 21.043,52.900 21.043,54.800 9.363,54.800 "/>
+<polyline fill="none" stroke="#0000FF" stroke-width="0.050"  points="20.443,52.300 20.443,52.900 21.043,52.900 "/>
+<text x="9.713" y="53.545"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Then, swap &apos;captured_frame_&apos;</text>
+<text x="9.713" y="54.345"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+with &apos;deliver_frame_&apos;</text>
+<line x1="9.315" y1="53.550" x2="7.397" y2="53.550" stroke="#0000FF" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M -0.001,57.500 C -0.470,56.351 2.130,56.351 0.396,58.019 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="0.222,57.839 0.035,58.365 0.569,58.199 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="0.222,57.839 0.035,58.365 0.569,58.199 "/>
+<text x="-0.001" y="55.748"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+DeliverI420Frame()</text>
+<text x="-0.001" y="56.548"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+DeliverFrame()</text>
+<rect x="8.059" y="57.500" width="4.625" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="8.059" y="57.500" width="4.625" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="10.371" y="58.595"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ViEEncoder</text>
+<line x1="8.559" y1="58.748" x2="12.184" y2="58.748" stroke="#000000" stroke-width="0.050" />
+<line x1="7.159" y1="58.400" x2="0.049" y2="58.400" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="7.159,58.650 7.959,58.400 7.159,58.150 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="7.159,58.650 7.959,58.400 7.159,58.150 "/>
+<text x="4.000" y="59.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+DeliverFrame()</text>
+<rect x="20.686" y="57.500" width="6.852" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="20.686" y="57.500" width="6.852" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="24.112" y="58.595"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+vcm::VideoSender</text>
+<line x1="21.186" y1="58.748" x2="27.039" y2="58.748" stroke="#000000" stroke-width="0.050" />
+<line x1="19.786" y1="58.400" x2="12.734" y2="58.400" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="19.786,58.650 20.586,58.400 19.786,58.150 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="19.786,58.650 20.586,58.400 19.786,58.150 "/>
+<text x="16.500" y="59.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+AddVideoFrame()</text>
+<rect x="33.815" y="57.500" width="7.540" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="33.815" y="57.500" width="7.540" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="37.585" y="58.595"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+VCMGenericEncoder</text>
+<line x1="34.315" y1="58.747" x2="40.855" y2="58.747" stroke="#000000" stroke-width="0.050" />
+<line x1="32.916" y1="58.400" x2="27.588" y2="58.400" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="32.916,58.650 33.716,58.400 32.916,58.150 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="32.916,58.650 33.716,58.400 32.916,58.150 "/>
+<text x="30.500" y="59.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Encode()</text>
+<rect x="34.461" y="62.889" width="6.248" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="34.461" y="62.889" width="6.248" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="37.585" y="63.984"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+VP8EncoderImpl</text>
+<line x1="34.961" y1="64.136" x2="40.209" y2="64.136" stroke="#000000" stroke-width="0.050" />
+<line x1="37.585" y1="61.989" x2="37.585" y2="59.350" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="37.335,61.989 37.585,62.789 37.835,61.989 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="37.335,61.989 37.585,62.789 37.835,61.989 "/>
+<text x="39.100" y="61.100"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Encode()</text>
+<rect x="18.187" y="62.889" width="9.767" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="18.187" y="62.889" width="9.767" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="23.071" y="63.984"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+VCMEncoderFrameCallback</text>
+<line x1="18.687" y1="64.136" x2="27.454" y2="64.136" stroke="#000000" stroke-width="0.050" />
+<line x1="28.854" y1="63.789" x2="34.411" y2="63.789" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="28.854,63.539 28.054,63.789 28.854,64.039 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="28.854,63.539 28.054,63.789 28.854,64.039 "/>
+<text x="31.200" y="64.400"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Encoded()</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 34.461,62.889 C 34.687,61.639 32.687,62.139 34.059,63.414 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="33.888,63.597 34.425,63.755 34.229,63.231 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="33.888,63.597 34.425,63.755 34.229,63.231 "/>
+<text x="34.461" y="61.936"  fill="#000000" text-anchor="end" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+GetEncodedPartitions()</text>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="26.187,66.000 39.192,66.000 39.792,66.600 39.792,68.500 26.187,68.500 "/>
+<polygon fill="none" stroke="#0000FF" stroke-width="0.100"  points="26.187,66.000 39.192,66.000 39.792,66.600 39.792,68.500 26.187,68.500 "/>
+<polyline fill="none" stroke="#0000FF" stroke-width="0.050"  points="39.192,66.000 39.192,66.600 39.792,66.600 "/>
+<text x="26.537" y="67.245"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Actual encoding is performed here</text>
+<text x="26.537" y="68.045"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+in &quot;vpx_codec_get_cx_data()&quot;</text>
+<line x1="33.428" y1="65.950" x2="34.461" y2="62.889" stroke="#0000FF" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<line x1="13.393" y1="59.682" x2="20.831" y2="62.839" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="13.491,59.452 12.657,59.370 13.295,59.912 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="13.491,59.452 12.657,59.370 13.295,59.912 "/>
+<text x="16.600" y="60.200"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendData()</text>
+<rect x="6.729" y="62.889" width="7.285" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="6.729" y="62.889" width="7.285" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="10.371" y="63.984"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ModuleRtpRtcpImpl</text>
+<line x1="7.229" y1="64.136" x2="13.514" y2="64.136" stroke="#000000" stroke-width="0.050" />
+<line x1="10.371" y1="61.989" x2="10.371" y2="59.350" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="10.121,61.989 10.371,62.789 10.621,61.989 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="10.121,61.989 10.371,62.789 10.621,61.989 "/>
+<text x="14.200" y="62.200"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendOutgoingData()</text>
+<rect x="-7.143" y="62.902" width="4.445" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-7.143" y="62.902" width="4.445" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-4.921" y="63.997"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+RTPSender</text>
+<line x1="-6.643" y1="64.150" x2="-3.198" y2="64.150" stroke="#000000" stroke-width="0.050" />
+<line x1="-1.799" y1="63.800" x2="6.679" y2="63.792" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-1.799,63.550 -2.599,63.800 -1.798,64.050 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-1.799,63.550 -2.599,63.800 -1.798,64.050 "/>
+<text x="2.400" y="64.400"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendOutgoingData()</text>
+<line x1="-1.296" y1="57.451" x2="10.948" y2="46.992" stroke="#FF0000" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 6.729,62.889 C 6.587,60.600 4.187,63.000 6.179,62.913 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="6.190,63.163 6.679,62.891 6.168,62.663 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="6.190,63.163 6.679,62.891 6.168,62.663 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="3.687,60.000 9.377,60.000 9.977,60.600 9.977,61.700 3.687,61.700 "/>
+<polygon fill="none" stroke="#0000FF" stroke-width="0.100"  points="3.687,60.000 9.377,60.000 9.977,60.600 9.977,61.700 3.687,61.700 "/>
+<polyline fill="none" stroke="#0000FF" stroke-width="0.050"  points="9.377,60.000 9.377,60.600 9.977,60.600 "/>
+<text x="4.037" y="61.245"  fill="#0000FF" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Recursive call</text>
+<line x1="6.786" y1="61.750" x2="6.729" y2="62.889" stroke="#0000FF" stroke-width="0.100" stroke-dasharray="0.10,0.10"/>
+<rect x="-15.000" y="60.000" width="6.240" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-15.000" y="60.000" width="6.240" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-11.880" y="61.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+RTPSenderVideo</text>
+<line x1="-14.500" y1="61.248" x2="-9.260" y2="61.248" stroke="#000000" stroke-width="0.050" />
+<rect x="-1.000" y="69.950" width="4.277" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-1.000" y="69.950" width="4.277" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="1.139" y="71.045"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ViESender</text>
+<line x1="-0.500" y1="71.198" x2="2.777" y2="71.198" stroke="#000000" stroke-width="0.050" />
+<line x1="-0.232" y1="69.255" x2="-4.104" y2="64.753" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-0.422,69.418 0.289,69.862 -0.043,69.092 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-0.422,69.418 0.289,69.862 -0.043,69.092 "/>
+<text x="0.200" y="67.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendPacket()</text>
+<line x1="-8.346" y1="60.743" x2="-7.143" y2="62.902" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-8.128,60.621 -8.736,60.044 -8.565,60.864 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-8.128,60.621 -8.736,60.044 -8.565,60.864 "/>
+<text x="-5.700" y="61.700"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendVideo()</text>
+<line x1="-7.557" y1="63.960" x2="-8.760" y2="61.800" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-7.775,64.081 -7.168,64.659 -7.339,63.838 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-7.775,64.081 -7.168,64.659 -7.339,63.838 "/>
+<text x="-11.000" y="63.300"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendToNetwork()</text>
+<rect x="10.000" y="69.950" width="7.543" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="10.000" y="69.950" width="7.543" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="13.771" y="71.045"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+WebrtcVideoConduit</text>
+<line x1="10.500" y1="71.198" x2="17.043" y2="71.198" stroke="#000000" stroke-width="0.050" />
+<line x1="9.100" y1="70.850" x2="3.325" y2="70.850" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="9.100,71.100 9.900,70.850 9.100,70.600 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="9.100,71.100 9.900,70.850 9.100,70.600 "/>
+<text x="6.500" y="71.500"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendPacket()</text>
+<rect x="25.000" y="69.950" width="11.365" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.000" y="69.950" width="11.365" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="30.683" y="71.045"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+MediaPipeline::PipelineTransport</text>
+<line x1="25.500" y1="71.198" x2="35.865" y2="71.198" stroke="#000000" stroke-width="0.050" />
+<line x1="24.101" y1="70.850" x2="17.593" y2="70.850" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.101,71.100 24.901,70.850 24.101,70.600 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.101,71.100 24.901,70.850 24.101,70.600 "/>
+<text x="21.000" y="71.600"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendRtpPacket()</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M -11.880,60.000 C -10.200,58.000 -13.400,58.000 -12.213,59.562 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-12.412,59.713 -11.910,59.960 -12.014,59.411 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-12.412,59.713 -11.910,59.960 -12.014,59.411 "/>
+<text x="-11.880" y="57.447"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendVP8()</text>
+<text x="-11.880" y="58.247"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendVideoPacket()</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M -7.143,64.702 C -8.863,66.552 -5.463,66.552 -6.774,65.110 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-6.588,64.941 -7.110,64.739 -6.959,65.278 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-6.588,64.941 -7.110,64.739 -6.959,65.278 "/>
+<text x="-7.143" y="66.897"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendPacketToNetwork()</text>
+<path stroke="#FF0000" fill="none" stroke-width="0.100" stroke-dasharray="0.10,0.10" d="M -11.546,40.597 C -19.822,41.346 -24.821,78.786 9.950,71.636 "/>
+<rect x="-17.000" y="77.000" width="59.000" height="11.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-17.000" y="77.000" width="59.000" height="11.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="-17.000" y="75.200" width="27.535" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-17.000" y="75.200" width="27.535" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-16.900" y="75.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+&lt;&lt;STS thread&gt;&gt;</text>
+<text x="-16.900" y="76.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+nsSocketTransportService (NS_SOCKETTRANSPORTSERVICE_CONTRACTID service)</text>
+<rect x="25.000" y="80.200" width="11.365" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.000" y="80.200" width="11.365" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="30.683" y="81.295"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+MediaPipeline::PipelineTransport</text>
+<line x1="25.500" y1="81.447" x2="35.865" y2="81.447" stroke="#000000" stroke-width="0.050" />
+<line x1="30.683" y1="80.154" x2="30.683" y2="71.796" stroke="#FF0000" stroke-width="0.100" />
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="30.433,79.354 30.683,80.154 30.683,80.154 "/>
+<text x="19.500" y="74.000"  fill="#FF0000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;RunOnThread&gt; MediaPipeline::PipelineTransport::SendRtpPacket_s</text>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 25.000,80.200 C 26.600,78.222 23.600,78.422 24.660,79.768 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.463,79.923 24.969,80.161 24.856,79.613 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.463,79.923 24.969,80.161 24.856,79.613 "/>
+<text x="25.000" y="78.447"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendPacket()</text>
+<rect x="11.615" y="80.200" width="6.725" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="11.615" y="80.200" width="6.725" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="14.977" y="81.295"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+TransportLayerIce</text>
+<line x1="12.115" y1="81.447" x2="17.840" y2="81.447" stroke="#000000" stroke-width="0.050" />
+<line x1="19.236" y1="81.100" x2="24.950" y2="81.100" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="19.236,80.850 18.436,81.100 19.236,81.350 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="19.236,80.850 18.436,81.100 19.236,81.350 "/>
+<text x="22.000" y="81.800"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendPacket()</text>
+<rect x="-2.343" y="80.200" width="6.920" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-2.343" y="80.200" width="6.920" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="1.117" y="81.295"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+NrIceMediaStream</text>
+<line x1="-1.843" y1="81.447" x2="4.077" y2="81.447" stroke="#000000" stroke-width="0.050" />
+<line x1="5.477" y1="81.100" x2="11.564" y2="81.100" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="5.477,80.850 4.677,81.100 5.477,81.350 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="5.477,80.850 4.677,81.100 5.477,81.350 "/>
+<text x="8.600" y="81.800"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendPacket()</text>
+<rect x="-15.000" y="80.200" width="9.647" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-15.000" y="80.200" width="9.647" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-10.176" y="81.295"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+nr_ice_media_stream_send</text>
+<line x1="-14.500" y1="81.447" x2="-5.852" y2="81.447" stroke="#000000" stroke-width="0.050" />
+<rect x="-13.456" y="85.000" width="6.560" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-13.456" y="85.000" width="6.560" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="-10.176" y="86.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+nr_socket_sendto</text>
+<line x1="-12.956" y1="86.248" x2="-7.396" y2="86.248" stroke="#000000" stroke-width="0.050" />
+<rect x="-3.000" y="85.000" width="8.372" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="-3.000" y="85.000" width="8.372" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="1.186" y="86.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+nr_socket_local_sendto</text>
+<line x1="-2.500" y1="86.248" x2="4.872" y2="86.248" stroke="#000000" stroke-width="0.050" />
+<line x1="-4.453" y1="81.100" x2="-2.393" y2="81.100" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-4.453,80.850 -5.253,81.100 -4.453,81.350 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-4.453,80.850 -5.253,81.100 -4.453,81.350 "/>
+<line x1="-10.176" y1="84.100" x2="-10.176" y2="82.050" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-10.426,84.100 -10.176,84.900 -9.926,84.100 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-10.426,84.100 -10.176,84.900 -9.926,84.100 "/>
+<line x1="-3.900" y1="85.900" x2="-6.847" y2="85.900" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="-3.900,86.150 -3.100,85.900 -3.900,85.650 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="-3.900,86.150 -3.100,85.900 -3.900,85.650 "/>
+<rect x="13.000" y="85.000" width="4.762" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="13.000" y="85.000" width="4.762" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="15.381" y="86.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+nrSocketIpc</text>
+<line x1="13.500" y1="86.248" x2="17.262" y2="86.248" stroke="#000000" stroke-width="0.050" />
+<line x1="12.100" y1="85.900" x2="5.422" y2="85.900" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="12.100,86.150 12.900,85.900 12.100,85.650 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="12.100,86.150 12.900,85.900 12.100,85.650 "/>
+<text x="9.000" y="86.600"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+sendto()</text>
+<rect x="13.000" y="92.000" width="4.762" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="13.000" y="92.000" width="4.762" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="15.381" y="93.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+nrSocketIpc</text>
+<line x1="13.500" y1="93.248" x2="17.262" y2="93.248" stroke="#000000" stroke-width="0.050" />
+<line x1="15.381" y1="91.953" x2="15.381" y2="86.847" stroke="#FF0000" stroke-width="0.100" />
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="15.131,91.153 15.381,91.953 15.381,91.953 "/>
+<text x="22.000" y="89.000"  fill="#FF0000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+&lt;RunOnThread&gt; NrSocketIpc::sendto_m</text>
+<line x1="29.100" y1="92.900" x2="17.813" y2="92.900" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="29.100,93.150 29.900,92.900 29.100,92.650 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="29.100,93.150 29.900,92.900 29.100,92.650 "/>
+<text x="24.000" y="92.500"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendWithAddress()</text>
+<rect x="70.000" y="92.000" width="5.228" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="70.000" y="92.000" width="5.228" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="72.614" y="93.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+nsUDPSocket</text>
+<line x1="70.500" y1="93.248" x2="74.728" y2="93.248" stroke="#000000" stroke-width="0.050" />
+<line x1="69.100" y1="92.900" x2="61.588" y2="92.900" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="69.100,93.150 69.900,92.900 69.100,92.650 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="69.100,93.150 69.900,92.900 69.100,92.650 "/>
+<text x="65.600" y="92.600"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+SendWithAddress()</text>
+</svg>
