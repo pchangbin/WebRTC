@@ -84,16 +84,18 @@ function call() {
 function gotLocalDescription(description){
   localPeerConnection.setLocalDescription(description);
   trace("Offer from localPeerConnection: \n" + description.sdp);
-  remotePeerConnection.setRemoteDescription(description);
-  remotePeerConnection.createAnswer(gotRemoteDescription, function (e){
-      trace("[createAnswer] " + e.name + " --> " + e.message);});
+  remotePeerConnection.setRemoteDescription(description, function(){
+      remotePeerConnection.createAnswer(gotRemoteDescription,
+          errCallback("remotePeerConnection.createAnswer"))
+    }, errCallback("remotePeerConnection.setRemoteDescription"));
 }
 
 function gotRemoteDescription(description){
   remotePeerConnection.setLocalDescription(description);
   trace("Answer from remotePeerConnection: \n" + description.sdp);
-  localPeerConnection.setRemoteDescription(description);
-  indicateRemoteFPS("remoteVideo", "remoteFPS");
+  localPeerConnection.setRemoteDescription(description, function(){
+      indicateRemoteFPS("remoteVideo", "remoteFPS");
+    }, errCallback("localPeerConnection.setRemoteDescription"));
 }
 
 function hangup() {
