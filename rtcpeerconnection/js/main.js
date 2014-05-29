@@ -49,9 +49,7 @@ function start() {
   navigator.getUserMedia = navigator.getUserMedia ||
     navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
   navigator.getUserMedia({video:true}, gotStream,
-    function(error) {
-      trace("navigator.getUserMedia error: ", error);
-    });
+      errCallback("navigator.getUserMedia"));
 }
 
 function call() {
@@ -79,8 +77,8 @@ function call() {
 
   localPeerConnection.addStream(localStream);
   trace("Added localStream to localPeerConnection");
-  localPeerConnection.createOffer(gotLocalDescription, function (e){
-      trace("[createOffer] " + e.name + " --> " + e.message);});
+  localPeerConnection.createOffer(gotLocalDescription,
+      errCallback("localPeerConnection.createOffer"));
 }
 
 function gotLocalDescription(description){
