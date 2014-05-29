@@ -28,6 +28,12 @@ function trace(text) {
   result.innerHTML=" - ("+text+")";
 }
 
+function errCallback(prefix) {
+  return function (error) {
+    trace("[" + prefix + "] Error : " + error.name + " --> " + error.message);
+  };
+}
+
 function gotStream(stream){
   trace("Received local stream");
   localVideo.src = URL.createObjectURL(stream);
