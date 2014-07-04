@@ -158,3 +158,133 @@ function indicateRemoteFPS(aVideoId, aSpanId)
     window.setTimeout(updateFPS, 1000);
   }
 }
+
+watchPeerConnectionStats(window, "localPeerConnection", "localStats");
+watchPeerConnectionStats(window, "remotePeerConnection", "remoteStats");
+
+function watchPeerConnectionStats(aParentObj, aPropPeerConnection, aStatOutputId)
+{
+  if(! aParentObj instanceof Object) return;
+
+  var elemOutput = document.getElementById(aStatOutputId);
+  if(!elemOutput) console.error("Nowhere to output stats");
+
+  aParentObj.watch(aPropPeerConnection,
+    (prop, oldval, newval)=>{
+      if(newval instanceof mozRTCPeerConnection) {
+        newval.name = prop;
+        newval.statReporter = new RTCStatReporter(newval, elemOutput, 1000);
+        newval.statReporter.start();
+      } else if(oldval instanceof mozRTCPeerConnection) {
+        oldval.statReporter.stop();
+      }
+      return newval;
+    }
+  );
+}
+
+function RTCStatReporter(aPeerConnection, aElemOutput, aInterval) {
+  if(!aPeerConnection)
+    throw new TypeError("aPeerConnection is empty. --> "
+        + aPeerConnection);
+  if(aInterval <= 0)
+    throw new RangeError("aInterval shoud be positive integer. --> "
+        + aInterval);
+  if(!aElemOutput)
+    throw new TypeError("Element to output RTCStat is empty --> "
+        + aElemOutput);
+
+  // Report interval in msec
+  this.mPeerConnection = aPeerConnection;
+  this.mInterval = aInterval;
+  this.mElemOutput = aElemOutput;
+}
+RTCStatReporter.prototype = {
+  start: function() {
+    this.mTimerId = window.setInterval(this.report.bind(this), this.mInterval);
+  },
+  stop: function() {
+    window.clearInterval(this.mTimerId);
+  },
+  report: function() {
+    var prefix=this.mElemOutput.id=='localStats'?"local":"remote";
+    var peerconnection = this.mPeerConnection;
+    peerconnection.getStats(null,
+      (aStatReports)=>{
+        var reportTable=[
+            '<table>',
+            '<tr><td colspan="2" class="subject">'+this.mPeerConnection.name+'</td></tr>',
+          ];
+        aStatReports.forEach((stat)=>{
+          // http://dxr.mozilla.org/mozilla-central/search?q=%22enum+RTCStatsType%22&case=true
+          switch(stat.type) {
+            case "inboundrtp":
+              // dictionary RTCInboundRTPStreamStats : RTCRTPStreamStats
+              //  http://dxr.mozilla.org/mozilla-central/search?q=%22dictionary+RTCInboundRTPStreamStats%22&case=true
+              reportTable.push(
+                  '<tr><td colspan="2" class="subject">'+stat.type+'</td></tr>',
+                  '<tr><td>Bytes Received</td><td>'+stat.bytesReceived+'</td></tr>',
+                  '<tr><td>Packets Received</td><td>'+stat.packetsReceived+'</td></tr>',
+                  '<tr><td>Packet Loss</td><td>'+stat.packetsLost+'</td></tr>',
+                '');
+              break;
+            case "outboundrtp":
+              // dictionary RTCOutboundRTPStreamStats : RTCRTPStreamStats
+              // http://dxr.mozilla.org/mozilla-central/search?q=%22dictionary+RTCOutboundRTPStreamStats%22&case=true&redirect=true
+              reportTable.push(
+                  '<tr><td colspan="2" class="subject">'+stat.type+'</td></tr>',
+                  '<tr><td>Bytes Sent</td><td>'+stat.bytesSent+'</td></td></tr>',
+                  '<tr><td>Packets Sent</td><td>'+stat.packetsSent+'</td></td></tr>',
+                '');
+              break;
+            case "session":
+              reportTable.push(
+                  '<tr><td colspan="2" class="subject">'+stat.type+'</td></tr>',
+                  '<tr><td colspan="2"> WORKS FOR ME</td></tr>',
+                '');
+              break;
+            case "track":
+              // dictionary RTCMediaStreamTrackStats : RTCStats
+              // http://dxr.mozilla.org/mozilla-central/search?q=%22dictionary+RTCMediaStreamTrackStats%22&case=true&redirect=true
+              reportTable.push(
+                  '<tr><td colspan="2" class="subject">'+stat.type+'</td></tr>',
+                  '<tr><td colspan="2"> WORKS FOR ME</td></tr>',
+                '');
+              break;
+            case "transport":
+              // dictionary RTCTransportStats: RTCStats
+              // http://dxr.mozilla.org/mozilla-central/search?q=%22dictionary+RTCTransportStats%3A+RTCStats+{%22&case=true
+              reportTable.push(
+                  '<tr><td colspan="2" class="subject">'+stat.type+'</td></tr>',
+                  '<tr><td colspan="2"> WORKS FOR ME</td></tr>',
+                '');
+              break;
+            case "candidatepair":
+              // dictionary RTCIceCandidatePairStats : RTCStats
+              // http://dxr.mozilla.org/mozilla-central/search?q=%22dictionary+RTCIceCandidatePairStats+%3A+RTCStats%22&case=true&redirect=true
+              reportTable.push(
+                  '<tr><td colspan="2" class="subject">'+stat.type+'</td></tr>',
+                  '<tr><td colspan="2"> WORKS FOR ME</td></tr>',
+                '');
+              break;
+            case "localcandidate":
+            case "remotecandidate":
+              // dictionary RTCIceCandidateStats : RTCStats
+              // http://dxr.mozilla.org/mozilla-central/search?q=%22dictionary+RTCIceCandidateStats+%3A+RTCStats%22&case=true&redirect=true
+              reportTable.push(
+                  '<tr><td colspan="2" class="subject">'+stat.type+'</td></tr>',
+                  '<tr><td>'+stat.candidateType+'</td><td>'+stat.transport+':'+stat.ipAddress+'/'+stat.portNumber+'</td></tr>',
+                '');
+              break;
+            default :
+              console.warning("Unknown stat type : " + stat.type);
+              console.log(stat);
+              break;
+          }
+        });
+        reportTable.push('</table>');
+        this.mElemOutput.innerHTML = reportTable.join('\n');
+      },
+      errCallback("RTCStatReporter"));
+  },
+}
