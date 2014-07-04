@@ -10,16 +10,23 @@
       div#container {
         max-width: 100%;
       }
-      video {
-        margin: 0 0.5em 1.5em 0;
+      video, td {
+        margin: 0.0em 0.0em 0.0em 0;
+        padding: 0 0 0 0;
       }
       @media screen and (min-width: 1000px) {
         video {
-          width: 49%;
+          width: 100%;
         }
       }
-      .fps {
+      .information {
         color: white;
+        /*
+        display: none;
+        */
+      }
+      .information .subject {
+        text-align: center;
       }
     </style>
   </head>
@@ -28,12 +35,34 @@
 
       <header><h1>RTCPeerConnection</h1><h2 id="result"> - (Press Start)</h2></header>
 
+      <div>
+        <table style="width:100%">
+          <tr>
+            <td> <video id="localVideo" autoplay></video> </td>
+            <td> <video id="remoteVideo" autoplay></video> </td>
+          </td>
+        </table>
 
-      <video id="localVideo" autoplay width="45%"></video>
-      <video id="remoteVideo" autoplay width="45%"></video>
+        <table style="width:100%" class="information">
+          <tr>
+            <td>
+              <table>
+                <tr><td>Approximate FPS</td><td id="localFPS">0</td></tr>
+              </table>
+            </td>
+            <td>
+              <table>
+                <tr><td>Approximate FPS</td><td id="remoteFPS">0</td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td id="localStats"/>
+            <td id="remoteStats"/>
+          </tr>
+        </table>
+      </div>
 
-      <div class="fps">Local  : <span id="localFPS">0</span> FPS</div>
-      <div class="fps">Remote  : <span id="remoteFPS">0</span> FPS</div>
       <div>
         <button id="startButton">Start</button>
         <button id="callButton">Call</button>
